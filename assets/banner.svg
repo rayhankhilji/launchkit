@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="g" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#FF4D1F"/><stop offset="1" stop-color="#FFB13B"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.5" r="0.6">
+      <stop offset="0" stop-color="#FF6A2B" stop-opacity="0.22"/><stop offset="1" stop-color="#FF6A2B" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.04"/>
+    </pattern>
+    <clipPath id="term"><rect x="690" y="70" width="450" height="260" rx="14"/></clipPath>
+    <style>
+      .t{fill:#F4F1EA}.m{fill:#9C98A6}.a{fill:url(#g)}
+      .rise{animation:rise 3s ease-in-out infinite}
+      @keyframes rise{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+      .row{opacity:0;animation:row 12s infinite}
+      .r1{animation-delay:0s}.r2{animation-delay:1s}.r3{animation-delay:2s}.r4{animation-delay:3s}.r5{animation-delay:4s}.r6{animation-delay:5s}.r7{animation-delay:6s}
+      @keyframes row{0%{opacity:0;transform:translateX(-8px)}4%,85%{opacity:1;transform:translateX(0)}92%,100%{opacity:0}}
+      .ok{fill:#5BD68A}.hold{fill:#FFB13B}.dr{fill:#8AB4FF}
+      .cursor{animation:blink 1s steps(1) infinite}@keyframes blink{50%{opacity:0}}
+      .bar{animation:bar 12s linear infinite;transform-origin:0 0}
+      @keyframes bar{0%{transform:scaleX(0.02)}85%{transform:scaleX(1)}100%{transform:scaleX(1)}}
+    </style>
+  </defs>
+  <rect width="1200" height="400" fill="#0C0B10"/>
+  <rect width="1200" height="400" fill="url(#grid)"/>
+  <rect width="1200" height="400" fill="url(#glow)"/>
+
+  <g transform="translate(70 92)">
+    <g class="rise">
+      <path d="M8 46 L30 24 L52 46" fill="none" stroke="#3A3742" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M8 30 L30 8 L52 30" fill="none" stroke="url(#g)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text x="72" y="46" font-size="54" font-weight="800" letter-spacing="-2" class="t">launchkit</text>
+    <text x="0" y="112" font-size="26" font-weight="600" class="t">Your coding agent launches your startup</text>
+    <text x="0" y="146" font-size="26" font-weight="600" class="a">on 477 directories. While you sleep.</text>
+    <text x="0" y="196" font-size="17" class="m">Interview  →  knowledge base  →  browser submissions  →  report</text>
+    <text x="0" y="226" font-size="17" class="m">Claude Code · Cursor · Codex · any agent with a browser</text>
+  </g>
+
+  <rect x="690" y="70" width="450" height="260" rx="14" fill="#15141B" stroke="#2A2832"/>
+  <g clip-path="url(#term)">
+    <rect x="690" y="70" width="450" height="34" fill="#1C1B23"/>
+    <circle cx="712" cy="87" r="5" fill="#FF5F57"/><circle cx="730" cy="87" r="5" fill="#FEBC2E"/><circle cx="748" cy="87" r="5" fill="#28C840"/>
+    <text x="915" y="92" font-size="12" text-anchor="middle" class="m" font-family="ui-monospace, Menlo, monospace">launchkit · 3 workers</text>
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">
+      <g class="row r1"><text x="710" y="132" class="ok">✓</text><text x="730" y="132" class="t">product-hunt</text><text x="1122" y="132" text-anchor="end" class="hold">draft ready</text></g>
+      <g class="row r2"><text x="710" y="158" class="ok">✓</text><text x="730" y="158" class="t">betalist</text><text x="1122" y="158" text-anchor="end" class="ok">submitted</text></g>
+      <g class="row r3"><text x="710" y="184" class="ok">✓</text><text x="730" y="184" class="t">uneed</text><text x="1122" y="184" text-anchor="end" class="ok">submitted</text></g>
+      <g class="row r4"><text x="710" y="210" class="ok">✓</text><text x="730" y="210" class="t">theresanaiforthat</text><text x="1122" y="210" text-anchor="end" class="ok">live</text></g>
+      <g class="row r5"><text x="710" y="236" class="dr">✎</text><text x="730" y="236" class="t">r-sideproject</text><text x="1122" y="236" text-anchor="end" class="dr">drafted</text></g>
+      <g class="row r6"><text x="710" y="262" class="ok">✓</text><text x="730" y="262" class="t">peerlist-launchpad</text><text x="1122" y="262" text-anchor="end" class="ok">submitted</text></g>
+      <g class="row r7"><text x="710" y="288" class="hold">!</text><text x="730" y="288" class="t">g2</text><text x="1122" y="288" text-anchor="end" class="hold">needs you</text></g>
+    </g>
+    <rect x="710" y="306" width="410" height="6" rx="3" fill="#2A2832"/>
+    <rect x="710" y="306" width="410" height="6" rx="3" fill="url(#g)" class="bar"/>
+  </g>
+</svg>

@@ -33,6 +33,12 @@ execFileSync('node', ['.launchkit/tool/bin/launchkit.mjs', 'status'], { cwd: tmp
 const first = lkj('next', '--worker', 'w1');
 assert.equal(first.claimed[0].id, 'product-hunt');
 assert.equal(first.claimed[0].status, 'in_progress');
+assert.ok(first.claimed[0].guide && fs.existsSync(first.claimed[0].guide), 'claimed target has a guide');
+assert.match(lk('guide', 'product-hunt'), /## Field map/);
+assert.equal(execFileSync('node', [BIN, 'lint-copy', '-'], { input: 'Acme writes your weekly update from Linear.', encoding: 'utf8' }).includes('"ok": true'), true);
+let lintFailed = false;
+try { execFileSync('node', [BIN, 'lint-copy', '-'], { input: 'Introducing Acme \u2014 a revolutionary tool', encoding: 'utf8' }); } catch (e) { lintFailed = e.status === 3; }
+assert.ok(lintFailed, 'lint-copy rejects em dash + slop');
 lk('mark', 'product-hunt', 'needs_human', '--note', 'choose launch date');
 
 // paid targets excluded with budget 0
@@ -56,6 +62,8 @@ const flat = results.flat();
 assert.equal(flat.length, N * K);
 assert.equal(new Set(flat).size, flat.length, 'no target claimed twice');
 assert.ok(flat.every((id) => !paidIds.has(id)), 'paid-only skipped at budget 0');
+const inactive = new Set(JSON.parse(fs.readFileSync(path.resolve('data/directories.json'), 'utf8')).filter((d) => d.inactive).map((d) => d.id));
+assert.ok(flat.every((id) => !inactive.has(id)), 'inactive sites skipped');
 console.log(`parallel: ${flat.length} unique claims across ${N} workers`);
 
 // release stale + mark + report

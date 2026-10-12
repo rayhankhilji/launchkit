@@ -2,7 +2,7 @@
 
 Each target has a `mode`. By default only `form` runs; the user turns others on in `launch_settings.modes`.
 
-## `form`: directories, launch platforms, review sites, databases (~270)
+## `form`: directories, launch platforms, review sites, databases (~240)
 Follow docs/03 fully. Notes:
 - **Launch platforms** (Product Hunt, Uneed, Fazier, Microlaunch, Peerlist, TinyLaunch, DevHunt...): many
   have a *launch day* chosen at submission. Ask the user once for a preferred launch date or strategy and use the
@@ -16,7 +16,7 @@ Follow docs/03 fully. Notes:
 - **Deals / LTD** (AppSumo etc.) are a business decision. Mark `needs_human` with "requires deal terms decision"
   unless the profile has `product.deal_or_promo_code` and the user opted in.
 
-## `post`: Reddit, HN, DEV, Hashnode, Medium, Indie Hackers, X, LinkedIn (~80)
+## `post`: Reddit, HN, DEV, Hashnode, Medium, Indie Hackers, X, LinkedIn (~75)
 1. Read the community's rules (sidebar/wiki, or HN guidelines). Note self-promo days such as "Showoff Saturday".
 2. Write a post adapted to that community from `copy.*`: story first, value first, matching the community's tone.
    Never copy-paste the same text across subreddits.

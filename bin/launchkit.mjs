@@ -47,6 +47,11 @@ function parse(argv) {
   }
   return { pos, o };
 }
+const tty = process.stdout.isTTY && !process.env.NO_COLOR;
+const c = (code) => (s) => (tty ? `\x1b[${code}m${s}\x1b[0m` : String(s));
+const orange = c('38;5;208'), dim = c('2'), bold = c('1'), green = c('32'), yellow = c('33'), blue = c('34'), red = c('31');
+const LOGO = `${orange('  ▲')}  ${bold('launchkit')} ${dim('· your agent launches your startup')}`;
+const STATUS_COLOR = { submitted: green, live: green, drafted: blue, needs_human: yellow, failed: red, in_progress: orange, pending: dim, skipped: dim };
 const out = (x) => console.log(typeof x === 'string' ? x : JSON.stringify(x, null, 2));
 const csv = (v) => (typeof v === 'string' ? v.split(',').map((s) => s.trim()).filter(Boolean) : undefined);
 
@@ -56,12 +61,12 @@ async function main() {
   switch (cmd) {
     case 'init': {
       const r = core.init();
-      out(`Workspace ready: ${r.dir} (${r.total} targets, ${r.added} new)`);
+      console.log(`\n${LOGO}\n\n  ${green('✓')} Workspace ready at ${bold(r.dir)}\n  ${green('✓')} ${r.total} targets in the queue (${r.added} new)`);
       if (o.agent) {
         const { install } = await import('../lib/install.mjs');
         out(install(csv(o.agent), { global: !!o.global }));
       }
-      out('Next: ask your agent to "launch my startup with launchkit" - it will interview you first.');
+      console.log(`\n  ${bold('Next:')} tell your agent ${orange('"Launch my startup with launchkit."')}\n  ${dim('It will research your site, interview you, then start submitting.')}\n`);
       break;
     }
     case 'install': {
@@ -88,7 +93,7 @@ async function main() {
     case 'list': {
       const rows = core.list({ status: o.status, mode: o.mode, category: o.category, search: o.search });
       if (o.json) out(rows.map(({ history, ...t }) => t));
-      else for (const t of rows) console.log(`${t.status.padEnd(12)} ${t.mode.padEnd(7)} ${t.id.padEnd(42)} ${t.url}`);
+      else for (const t of rows) console.log(`${(STATUS_COLOR[t.status] || dim)(t.status.padEnd(12))} ${dim(t.mode.padEnd(7))} ${t.id.padEnd(42)} ${dim(t.url)}`);
       break;
     }
     case 'draft': {
@@ -101,8 +106,11 @@ async function main() {
     case 'status': {
       const s = core.status();
       if (o.json) { out(s); break; }
-      console.log(`Targets: ${s.total}   queued for current settings: ${s.queued_for_current_settings}`);
-      for (const [k, v] of Object.entries(s.byStatus)) if (v) console.log(`  ${k.padEnd(12)} ${v}`);
+      const done = (s.byStatus.submitted || 0) + (s.byStatus.live || 0) + (s.byStatus.drafted || 0);
+      const w = 30, fill = Math.round((done / Math.max(1, s.total)) * w);
+      console.log(`\n${LOGO}\n\n  ${orange('█'.repeat(fill))}${dim('░'.repeat(w - fill))}  ${bold(done)}/${s.total} done · ${s.queued_for_current_settings} queued for current settings\n`);
+      for (const [k, v] of Object.entries(s.byStatus)) if (v) console.log(`  ${(STATUS_COLOR[k] || dim)(k.padEnd(12))} ${v}`);
+      console.log('');
       break;
     }
     case 'report': out(core.report()); break;
@@ -126,9 +134,9 @@ async function main() {
       process.exitCode = r.ok ? 0 : 3;
       break;
     }
-    case undefined: case 'help': case '--help': case '-h': console.log(HELP); break;
+    case undefined: case 'help': case '--help': case '-h': console.log(`\n${LOGO}\n\n${HELP}`); break;
     default: throw new Error(`Unknown command "${cmd}". Run "launchkit help".`);
   }
 }
 
-main().catch((e) => { console.error(`launchkit: ${e.message}`); process.exit(1); });
+main().catch((e) => { console.error(`${red('✗')} launchkit: ${e.message}`); process.exit(1); });
