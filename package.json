@@ -1,0 +1,11 @@
+{
+  "name": "launchkit",
+  "version": "0.1.0",
+  "description": "Let your coding agent interview you, build a launch knowledge base, and submit your startup to 470+ directories with its browser tool.",
+  "type": "module",
+  "bin": { "launchkit": "bin/launchkit.mjs" },
+  "files": ["bin", "lib", "data", "skill", "templates", "README.md"],
+  "engines": { "node": ">=18" },
+  "scripts": { "test": "node test/run.mjs" },
+  "license": "MIT"
+}

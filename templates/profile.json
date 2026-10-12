@@ -1,0 +1,94 @@
+{
+  "product": {
+    "name": "",
+    "url": "",
+    "tagline": "",
+    "tagline_short": "",
+    "description_short": "",
+    "description_medium": "",
+    "description_long": "",
+    "categories": [],
+    "tags": [],
+    "key_features": [],
+    "use_cases": [],
+    "target_audience": "",
+    "competitors_alternatives": [],
+    "pricing_model": "",
+    "pricing_details": "",
+    "free_trial": null,
+    "platforms": [],
+    "open_source": false,
+    "repo_url": "",
+    "launch_date": "",
+    "status": "",
+    "deal_or_promo_code": ""
+  },
+  "company": {
+    "legal_name": "",
+    "founded_year": "",
+    "country": "",
+    "city": "",
+    "team_size": "",
+    "funding_stage": "",
+    "funding_raised": "",
+    "business_model": ""
+  },
+  "founder": {
+    "name": "",
+    "role": "",
+    "email": "",
+    "bio_short": "",
+    "twitter": "",
+    "linkedin": "",
+    "github": "",
+    "website": "",
+    "avatar": ""
+  },
+  "links": {
+    "twitter": "",
+    "linkedin": "",
+    "github": "",
+    "discord": "",
+    "youtube": "",
+    "demo_video": "",
+    "docs": "",
+    "pricing_page": "",
+    "changelog": "",
+    "press_kit": ""
+  },
+  "assets": {
+    "logo_square": "",
+    "logo_wide": "",
+    "favicon": "",
+    "screenshots": [],
+    "demo_gif": "",
+    "og_image": ""
+  },
+  "submission": {
+    "email": "",
+    "preferred_login": "google",
+    "allow_account_creation": true,
+    "inbox_access": "none",
+    "password_policy": "Use the browser's password manager / suggested strong password. Never write passwords into launchkit files."
+  },
+  "copy": {
+    "launch_post_story": "",
+    "show_hn_title": "",
+    "show_hn_body": "",
+    "reddit_post": "",
+    "press_pitch": "",
+    "maker_comment": "",
+    "faq": []
+  },
+  "launch_settings": {
+    "concurrency": 1,
+    "modes": ["form"],
+    "budget_usd": 0,
+    "allow_social_posting": false,
+    "add_badge_to_site": "ask",
+    "exclude_categories": [],
+    "exclude_ids": [],
+    "attended": true,
+    "max_minutes_per_site": 10
+  }
+}

@@ -1,0 +1,4772 @@
+[
+ {
+  "id": "product-hunt",
+  "name": "Product Hunt",
+  "category": "Launch Platform",
+  "url": "https://www.producthunt.com/posts/new",
+  "pricing": "Free",
+  "priority": 1,
+  "mode": "form",
+  "notes": "The big one. Launch 12:01am PT, line up supporters; Tue-Thu most competitive."
+ },
+ {
+  "id": "hacker-news-show-hn",
+  "name": "Hacker News (Show HN)",
+  "category": "Launch Platform",
+  "url": "https://news.ycombinator.com/submit",
+  "pricing": "Free",
+  "priority": 1,
+  "mode": "post",
+  "notes": "Title must start with 'Show HN:'; must be something people can try. No vote asking."
+ },
+ {
+  "id": "betalist",
+  "name": "BetaList",
+  "category": "Launch Platform",
+  "url": "https://betalist.com/submit",
+  "pricing": "Free/Paid",
+  "priority": 1,
+  "mode": "form",
+  "notes": "Pre-launch/early-stage only. Free queue is long; paid to expedite."
+ },
+ {
+  "id": "indie-hackers",
+  "name": "Indie Hackers",
+  "category": "Launch Platform",
+  "url": "https://www.indiehackers.com/products",
+  "pricing": "Free",
+  "priority": 1,
+  "mode": "post",
+  "notes": "Add product page + post in the community; milestone posts do well."
+ },
+ {
+  "id": "peerlist-launchpad",
+  "name": "Peerlist Launchpad",
+  "category": "Launch Platform",
+  "url": "https://peerlist.io/launchpad",
+  "pricing": "Free",
+  "priority": 1,
+  "mode": "form",
+  "notes": "Weekly launch leaderboard; need Peerlist profile."
+ },
+ {
+  "id": "uneed",
+  "name": "Uneed",
+  "category": "Launch Platform",
+  "url": "https://www.uneed.best/submit-a-tool",
+  "pricing": "Free/Paid",
+  "priority": 1,
+  "mode": "form",
+  "notes": "Daily launches; free queue or paid skip-the-line."
+ },
+ {
+  "id": "devhunt",
+  "name": "DevHunt",
+  "category": "Launch Platform",
+  "url": "https://devhunt.org/",
+  "pricing": "Free/Paid",
+  "priority": 1,
+  "mode": "form",
+  "notes": "Dev tools only; weekly launches; GitHub login."
+ },
+ {
+  "id": "fazier",
+  "name": "Fazier",
+  "category": "Launch Platform",
+  "url": "https://fazier.com/submit",
+  "pricing": "Free/Paid",
+  "priority": 1,
+  "mode": "form",
+  "notes": "PH-style daily launches; dofollow badge."
+ },
+ {
+  "id": "hackernoon",
+  "name": "Hackernoon",
+  "category": "Launch Platform",
+  "url": "https://hackernoon.com/",
+  "pricing": "Free",
+  "priority": 1,
+  "mode": "post",
+  "notes": "Write a launch/story post; strong SEO + distribution."
+ },
+ {
+  "id": "launching-next",
+  "name": "Launching Next",
+  "category": "Launch Platform",
+  "url": "https://www.launchingnext.com/submit/",
+  "pricing": "Free/Paid",
+  "priority": 1,
+  "mode": "form",
+  "notes": "Startup showcase; free with wait or paid featured."
+ },
+ {
+  "id": "microlaunch",
+  "name": "Microlaunch",
+  "category": "Launch Platform",
+  "url": "https://microlaunch.net/",
+  "pricing": "Free/Paid",
+  "priority": 1,
+  "mode": "form",
+  "notes": "Month-long launches with roast/feedback; good for indie makers."
+ },
+ {
+  "id": "sideprojectors",
+  "name": "SideProjectors",
+  "category": "Launch Platform",
+  "url": "https://www.sideprojectors.com/project/new",
+  "pricing": "Free",
+  "priority": 1,
+  "mode": "form",
+  "notes": "Showcase or sell side projects."
+ },
+ {
+  "id": "tinylaunch",
+  "name": "TinyLaunch",
+  "category": "Launch Platform",
+  "url": "https://www.tinylaunch.com/",
+  "pricing": "Free/Paid",
+  "priority": 1,
+  "mode": "form",
+  "notes": "Weekly launch for small/indie products."
+ },
+ {
+  "id": "r-entrepreneurridealong",
+  "name": "r/EntrepreneurRideAlong",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/EntrepreneurRideAlong/submit",
+  "pricing": "Free",
+  "priority": 1,
+  "mode": "post",
+  "notes": "Build-in-public journey posts."
+ },
+ {
+  "id": "r-internetisbeautiful",
+  "name": "r/InternetIsBeautiful",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/InternetIsBeautiful/submit",
+  "pricing": "Free",
+  "priority": 1,
+  "mode": "post",
+  "notes": "Huge; free, no signup-wall sites only."
+ },
+ {
+  "id": "r-saas",
+  "name": "r/SaaS",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/SaaS/submit",
+  "pricing": "Free",
+  "priority": 1,
+  "mode": "post",
+  "notes": "Lessons/metrics posts do well."
+ },
+ {
+  "id": "r-sideproject",
+  "name": "r/SideProject",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/SideProject/submit",
+  "pricing": "Free",
+  "priority": 1,
+  "mode": "post",
+  "notes": "Most launch-friendly sub. Tell the story, not just the link."
+ },
+ {
+  "id": "r-webdev-showoff-saturday",
+  "name": "r/webdev (Showoff Saturday)",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/webdev/submit",
+  "pricing": "Free",
+  "priority": 1,
+  "mode": "post",
+  "notes": "Only on Saturdays."
+ },
+ {
+  "id": "x-twitter-buildinpublic",
+  "name": "X / Twitter (#buildinpublic)",
+  "category": "Community",
+  "url": "https://x.com/compose/post",
+  "pricing": "Free",
+  "priority": 1,
+  "mode": "post",
+  "notes": "Launch thread + demo video; tag communities."
+ },
+ {
+  "id": "crunchbase",
+  "name": "Crunchbase",
+  "category": "Startup Database",
+  "url": "https://www.crunchbase.com/add-new",
+  "pricing": "Free",
+  "priority": 1,
+  "mode": "form",
+  "notes": "Company profile used by investors/press. Claim + keep updated."
+ },
+ {
+  "id": "linkedin-company-page",
+  "name": "LinkedIn Company Page",
+  "category": "Startup Database",
+  "url": "https://www.linkedin.com/company/setup/new/",
+  "pricing": "Free",
+  "priority": 1,
+  "mode": "form",
+  "notes": "Essential baseline profile."
+ },
+ {
+  "id": "starter-story",
+  "name": "Starter Story",
+  "category": "Startup Database",
+  "url": "https://www.starterstory.com/",
+  "pricing": "Free",
+  "priority": 1,
+  "mode": "pitch",
+  "notes": "Founder interview; apply via 'Get featured' on site."
+ },
+ {
+  "id": "wellfound-angellist-talent",
+  "name": "Wellfound (AngelList Talent)",
+  "category": "Startup Database",
+  "url": "https://wellfound.com/recruit",
+  "pricing": "Free",
+  "priority": 1,
+  "mode": "form",
+  "notes": "Company profile + hiring; investors browse it."
+ },
+ {
+  "id": "alternativeto",
+  "name": "AlternativeTo",
+  "category": "Software Review Site",
+  "url": "https://alternativeto.net/",
+  "pricing": "Free",
+  "priority": 1,
+  "mode": "form",
+  "notes": "Add app as an alternative to big names - huge long-tail traffic."
+ },
+ {
+  "id": "capterra",
+  "name": "Capterra",
+  "category": "Software Review Site",
+  "url": "https://www.capterra.com/vendors/sign-up",
+  "pricing": "Free/Paid",
+  "priority": 1,
+  "mode": "form",
+  "notes": "Gartner Digital Markets (also covers GetApp + Software Advice)."
+ },
+ {
+  "id": "g2",
+  "name": "G2",
+  "category": "Software Review Site",
+  "url": "https://www.g2.com/products/new",
+  "pricing": "Free",
+  "priority": 1,
+  "mode": "form",
+  "notes": "Free listing; reviews drive B2B buyers. Ask customers for reviews."
+ },
+ {
+  "id": "saashub",
+  "name": "SaaSHub",
+  "category": "Software Review Site",
+  "url": "https://www.saashub.com/submit",
+  "pricing": "Free/Paid",
+  "priority": 1,
+  "mode": "form",
+  "notes": "Alternatives + comparisons; dofollow-ish listing; verify for badge."
+ },
+ {
+  "id": "trustpilot",
+  "name": "Trustpilot",
+  "category": "Software Review Site",
+  "url": "https://business.trustpilot.com/signup",
+  "pricing": "Free/Paid",
+  "priority": 1,
+  "mode": "form",
+  "notes": "Consumer reviews profile."
+ },
+ {
+  "id": "ben-s-bites-news-submit",
+  "name": "Ben's Bites News (submit)",
+  "category": "AI Directory",
+  "url": "https://news.bensbites.com/",
+  "pricing": "Free",
+  "priority": 1,
+  "mode": "form",
+  "notes": "Submit to Ben's Bites news (community-voted)."
+ },
+ {
+  "id": "future-tools-matt-wolfe",
+  "name": "Future Tools (Matt Wolfe)",
+  "category": "AI Directory",
+  "url": "https://www.futuretools.io/submit-a-tool",
+  "pricing": "Free",
+  "priority": 1,
+  "mode": "form",
+  "notes": "Curated; not everything accepted."
+ },
+ {
+  "id": "futurepedia",
+  "name": "Futurepedia",
+  "category": "AI Directory",
+  "url": "https://www.futurepedia.io/",
+  "pricing": "Paid",
+  "priority": 1,
+  "mode": "form",
+  "notes": "Huge AI directory; use 'Submit a tool' (paid) on site."
+ },
+ {
+  "id": "there-s-an-ai-for-that",
+  "name": "There's An AI For That",
+  "category": "AI Directory",
+  "url": "https://theresanaiforthat.com/launch/",
+  "pricing": "Paid",
+  "priority": 1,
+  "mode": "form",
+  "notes": "Largest AI directory; paid listing but big traffic."
+ },
+ {
+  "id": "toolify-ai",
+  "name": "Toolify.ai",
+  "category": "AI Directory",
+  "url": "https://www.toolify.ai/submit",
+  "pricing": "Free/Paid",
+  "priority": 1,
+  "mode": "form",
+  "notes": "Large AI directory; free queue or paid."
+ },
+ {
+  "id": "changelog-news",
+  "name": "Changelog News",
+  "category": "Dev / Open Source",
+  "url": "https://changelog.com/news/submit",
+  "pricing": "Free",
+  "priority": 1,
+  "mode": "form",
+  "notes": "Dev news submission."
+ },
+ {
+  "id": "dev-community",
+  "name": "DEV Community",
+  "category": "Dev / Open Source",
+  "url": "https://dev.to/new",
+  "pricing": "Free",
+  "priority": 1,
+  "mode": "post",
+  "notes": "Write a launch/build post; #showdev tag."
+ },
+ {
+  "id": "github-awesome-lists",
+  "name": "GitHub Awesome Lists",
+  "category": "Dev / Open Source",
+  "url": "https://github.com/sindresorhus/awesome",
+  "pricing": "Free",
+  "priority": 1,
+  "mode": "pr",
+  "notes": "PR your project into relevant awesome-* lists."
+ },
+ {
+  "id": "openalternative",
+  "name": "OpenAlternative",
+  "category": "Dev / Open Source",
+  "url": "https://openalternative.co/submit",
+  "pricing": "Free/Paid",
+  "priority": 1,
+  "mode": "form",
+  "notes": "Open-source alternatives to SaaS."
+ },
+ {
+  "id": "appsumo",
+  "name": "AppSumo",
+  "category": "Deals / LTD",
+  "url": "https://sell.appsumo.com/",
+  "pricing": "Free",
+  "priority": 1,
+  "mode": "form",
+  "notes": "Lifetime-deal marketplace; big launch spikes."
+ },
+ {
+  "id": "secret-joinsecret",
+  "name": "Secret (JoinSecret)",
+  "category": "Deals / LTD",
+  "url": "https://www.joinsecret.com/",
+  "pricing": "Free",
+  "priority": 1,
+  "mode": "form",
+  "notes": "SaaS perks marketplace for startups - list a perk."
+ },
+ {
+  "id": "chrome-web-store",
+  "name": "Chrome Web Store",
+  "category": "App Store / Marketplace",
+  "url": "https://chrome.google.com/webstore/devconsole",
+  "pricing": "Paid",
+  "priority": 1,
+  "mode": "manual",
+  "notes": "$5 one-time dev fee. Extensions get organic search."
+ },
+ {
+  "id": "tiny-startups",
+  "name": "Tiny Startups",
+  "category": "Newsletter",
+  "url": "https://tinystartups.com/",
+  "pricing": "Free/Paid",
+  "priority": 1,
+  "mode": "pitch",
+  "notes": "Indie startup newsletter + launch."
+ },
+ {
+  "id": "awwwards",
+  "name": "Awwwards",
+  "category": "Design Gallery",
+  "url": "https://www.awwwards.com/submit/",
+  "pricing": "Paid",
+  "priority": 1,
+  "mode": "form",
+  "notes": "Site of the Day; big design audience."
+ },
+ {
+  "id": "10words",
+  "name": "10words",
+  "category": "Launch Platform",
+  "url": "https://app.10words.io/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Describe your startup in 10 words."
+ },
+ {
+  "id": "aura",
+  "name": "Aura++",
+  "category": "Launch Platform",
+  "url": "https://auraplusplus.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "codehype",
+  "name": "CodeHype",
+  "category": "Launch Platform",
+  "url": "https://codehype.ai/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "dailypings",
+  "name": "DailyPings",
+  "category": "Launch Platform",
+  "url": "https://dailypings.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "daniellaunches",
+  "name": "DanielLaunches",
+  "category": "Launch Platform",
+  "url": "https://daniellaunches.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "days-launch",
+  "name": "Days Launch",
+  "category": "Launch Platform",
+  "url": "https://dayslaunch.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "deeplaunch-io",
+  "name": "DeepLaunch.io",
+  "category": "Launch Platform",
+  "url": "https://deeplaunch.io/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "devhub",
+  "name": "DevHub",
+  "category": "Launch Platform",
+  "url": "https://devhub.best/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "dododirectory",
+  "name": "DodoDirectory",
+  "category": "Launch Platform",
+  "url": "https://dododirectory.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "earlyhunt",
+  "name": "EarlyHunt",
+  "category": "Launch Platform",
+  "url": "https://earlyhunt.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "fastlaunch-dev",
+  "name": "FastLaunch (.dev)",
+  "category": "Launch Platform",
+  "url": "https://fastlaunch.dev/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "fastlaunch-io",
+  "name": "FastLaunch (.io)",
+  "category": "Launch Platform",
+  "url": "https://fastlaunch.io/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "findly-tools",
+  "name": "Findly.tools",
+  "category": "Launch Platform",
+  "url": "https://findly.tools/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Tool launch + directory."
+ },
+ {
+  "id": "firsto",
+  "name": "Firsto",
+  "category": "Launch Platform",
+  "url": "https://firsto.co/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Daily launch platform for indie products."
+ },
+ {
+  "id": "hunt-startup",
+  "name": "Hunt Startup",
+  "category": "Launch Platform",
+  "url": "https://huntstartup.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "huzzler",
+  "name": "Huzzler",
+  "category": "Launch Platform",
+  "url": "https://huzzler.so/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie founder community + product launches."
+ },
+ {
+  "id": "indie-hackers-interviews",
+  "name": "Indie Hackers Interviews",
+  "category": "Launch Platform",
+  "url": "https://www.indiehackers.com/interviews",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": "Pitch a founder interview once you have revenue."
+ },
+ {
+  "id": "indiehunt",
+  "name": "IndieHunt",
+  "category": "Launch Platform",
+  "url": "https://indiehunt.io/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "kick-product",
+  "name": "Kick Product",
+  "category": "Launch Platform",
+  "url": "https://kickproduct.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "killerstartups",
+  "name": "KillerStartups",
+  "category": "Launch Platform",
+  "url": "https://www.killerstartups.com/submit-startup/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Long-running startup reviews site."
+ },
+ {
+  "id": "kittylaunch",
+  "name": "KittyLaunch",
+  "category": "Launch Platform",
+  "url": "https://kittylaunch.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "launch-directories-meta-list",
+  "name": "Launch Directories (meta list)",
+  "category": "Launch Platform",
+  "url": "https://launchdirectories.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Meta-list of 100+ launch directories - use to find more."
+ },
+ {
+  "id": "launch-llama",
+  "name": "Launch Llama",
+  "category": "Launch Platform",
+  "url": "https://launchllama.co/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Launch day platform."
+ },
+ {
+  "id": "launch-streak",
+  "name": "Launch Streak",
+  "category": "Launch Platform",
+  "url": "https://launchstreak.dev/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "launch-vault",
+  "name": "Launch Vault",
+  "category": "Launch Platform",
+  "url": "https://launchvault.dev/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "launchboard",
+  "name": "LaunchBoard",
+  "category": "Launch Platform",
+  "url": "https://launchboard.app/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "launchclash",
+  "name": "LaunchClash",
+  "category": "Launch Platform",
+  "url": "https://launchclash.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "launchigniter",
+  "name": "LaunchIgniter",
+  "category": "Launch Platform",
+  "url": "https://launchigniter.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Weekly product launches."
+ },
+ {
+  "id": "launchtory",
+  "name": "Launchtory",
+  "category": "Launch Platform",
+  "url": "https://launchtory.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "launchvoid",
+  "name": "LaunchVoid",
+  "category": "Launch Platform",
+  "url": "https://launchvoid.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "marketingdb",
+  "name": "MarketingDB",
+  "category": "Launch Platform",
+  "url": "https://marketingdb.live/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "'See what people just shipped' launch feed."
+ },
+ {
+  "id": "my-launch-stash",
+  "name": "My Launch Stash",
+  "category": "Launch Platform",
+  "url": "https://mylaunchstash.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "navfolders",
+  "name": "NavFolders",
+  "category": "Launch Platform",
+  "url": "https://navfolders.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "next-launch",
+  "name": "Next Launch",
+  "category": "Launch Platform",
+  "url": "https://nextlaunch.io/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "nick-launches",
+  "name": "Nick Launches",
+  "category": "Launch Platform",
+  "url": "https://nicklaunches.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "openhunts",
+  "name": "OpenHunts",
+  "category": "Launch Platform",
+  "url": "https://openhunts.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Weekly launch platform, open-source PH alternative."
+ },
+ {
+  "id": "peerpush",
+  "name": "Peerpush",
+  "category": "Launch Platform",
+  "url": "https://peerpush.net/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Launch platform for SaaS/indie products."
+ },
+ {
+  "id": "pitchwall",
+  "name": "Pitchwall",
+  "category": "Launch Platform",
+  "url": "https://pitchwall.co/submit",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Startup launch + feedback platform."
+ },
+ {
+  "id": "postmake",
+  "name": "Postmake",
+  "category": "Launch Platform",
+  "url": "https://postmake.io/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Curated tools/resources directory."
+ },
+ {
+  "id": "product-hunt-upcoming-coming-soon-page",
+  "name": "Product Hunt Upcoming (coming-soon page)",
+  "category": "Launch Platform",
+  "url": "https://www.producthunt.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Create a 'coming soon' page before launch day to collect followers."
+ },
+ {
+  "id": "product-radar",
+  "name": "Product Radar",
+  "category": "Launch Platform",
+  "url": "https://www.productradar.io/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Weekly product launches with leaderboard."
+ },
+ {
+  "id": "product-watch",
+  "name": "Product Watch",
+  "category": "Launch Platform",
+  "url": "https://productwatch.io/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "saasfame",
+  "name": "SaaSFame",
+  "category": "Launch Platform",
+  "url": "https://saasfame.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "SaaS directory/launch with backlinks."
+ },
+ {
+  "id": "saasgrow",
+  "name": "SaaSGrow",
+  "category": "Launch Platform",
+  "url": "https://saasgrow.app/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "scrolllaunch",
+  "name": "ScrollLaunch",
+  "category": "Launch Platform",
+  "url": "https://scrolllaunch.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "shinylaunch",
+  "name": "ShinyLaunch",
+  "category": "Launch Platform",
+  "url": "https://shinylaunch.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "shipboost",
+  "name": "ShipBoost",
+  "category": "Launch Platform",
+  "url": "https://shipboost.io/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "showmysites",
+  "name": "ShowMySites",
+  "category": "Launch Platform",
+  "url": "https://showmysites.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "smol-launch",
+  "name": "Smol Launch",
+  "category": "Launch Platform",
+  "url": "https://smollaunch.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "startup-fame",
+  "name": "Startup Fame",
+  "category": "Launch Platform",
+  "url": "https://startupfa.me/submit",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Startup directory with dofollow backlink."
+ },
+ {
+  "id": "startup-inspire",
+  "name": "Startup Inspire",
+  "category": "Launch Platform",
+  "url": "https://www.startupinspire.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Startup launch & directory."
+ },
+ {
+  "id": "startup-stash",
+  "name": "Startup Stash",
+  "category": "Launch Platform",
+  "url": "https://startupstash.com/add-listing/",
+  "pricing": "Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Curated resource directory for startups."
+ },
+ {
+  "id": "startupbase",
+  "name": "StartupBase",
+  "category": "Launch Platform",
+  "url": "https://startupbase.io/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Community launch platform."
+ },
+ {
+  "id": "startups-fyi",
+  "name": "Startups.fyi",
+  "category": "Launch Platform",
+  "url": "https://www.startups.fyi/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Startup directory and launch list."
+ },
+ {
+  "id": "submit-hunt",
+  "name": "Submit Hunt",
+  "category": "Launch Platform",
+  "url": "https://submithunt.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "superlaunch",
+  "name": "SuperLaunch",
+  "category": "Launch Platform",
+  "url": "https://superlaunch.io/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "tiny-hunt",
+  "name": "Tiny Hunt",
+  "category": "Launch Platform",
+  "url": "https://tinyhunt.dev/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "toolfame",
+  "name": "Toolfame",
+  "category": "Launch Platform",
+  "url": "https://toolfame.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Product/tool launch directory."
+ },
+ {
+  "id": "turbo0",
+  "name": "Turbo0",
+  "category": "Launch Platform",
+  "url": "https://turbo0.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "twelve-tools",
+  "name": "Twelve Tools",
+  "category": "Launch Platform",
+  "url": "https://twelve.tools/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Small curated launch list."
+ },
+ {
+  "id": "wip-co",
+  "name": "WIP.co",
+  "category": "Launch Platform",
+  "url": "https://wip.co/",
+  "pricing": "Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Maker community; ship log + products listing (membership)."
+ },
+ {
+  "id": "r-advancedentrepreneur",
+  "name": "r/advancedentrepreneur",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/advancedentrepreneur/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": ""
+ },
+ {
+  "id": "r-androidapps",
+  "name": "r/androidapps",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/androidapps/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": ""
+ },
+ {
+  "id": "r-appideas",
+  "name": "r/AppIdeas",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/AppIdeas/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": ""
+ },
+ {
+  "id": "r-apple-self-promo-sunday",
+  "name": "r/apple (Self-promo Sunday)",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/apple/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": "Developer promo only on designated days."
+ },
+ {
+  "id": "r-artificial",
+  "name": "r/artificial",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/artificial/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": ""
+ },
+ {
+  "id": "r-artificialinteligence",
+  "name": "r/ArtificialInteligence",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/ArtificialInteligence/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": ""
+ },
+ {
+  "id": "r-buildinpublic",
+  "name": "r/buildinpublic",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/buildinpublic/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": ""
+ },
+ {
+  "id": "r-chatgpt",
+  "name": "r/ChatGPT",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/ChatGPT/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": "Self-promo flair rules apply."
+ },
+ {
+  "id": "r-chrome-extensions",
+  "name": "r/chrome_extensions",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/chrome_extensions/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": ""
+ },
+ {
+  "id": "r-claudeai",
+  "name": "r/ClaudeAI",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/ClaudeAI/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": ""
+ },
+ {
+  "id": "r-coolgithubprojects",
+  "name": "r/coolgithubprojects",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/coolgithubprojects/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": ""
+ },
+ {
+  "id": "r-devops",
+  "name": "r/devops",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/devops/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": "For devops tools."
+ },
+ {
+  "id": "r-entrepreneur",
+  "name": "r/Entrepreneur",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/Entrepreneur/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": "Value posts only; promo in threads."
+ },
+ {
+  "id": "r-entrepreneurconnect",
+  "name": "r/EntrepreneurConnect",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/EntrepreneurConnect/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": ""
+ },
+ {
+  "id": "r-golang",
+  "name": "r/golang",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/golang/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": ""
+ },
+ {
+  "id": "r-growmybusiness",
+  "name": "r/growmybusiness",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/growmybusiness/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": ""
+ },
+ {
+  "id": "r-imadethis",
+  "name": "r/IMadeThis",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/IMadeThis/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": ""
+ },
+ {
+  "id": "r-indiehackers",
+  "name": "r/indiehackers",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/indiehackers/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": ""
+ },
+ {
+  "id": "r-iosapps",
+  "name": "r/iosapps",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/iosapps/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": ""
+ },
+ {
+  "id": "r-localllama",
+  "name": "r/LocalLLaMA",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/LocalLLaMA/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": "For local/OSS AI tools."
+ },
+ {
+  "id": "r-macapps",
+  "name": "r/macapps",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/macapps/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": "Mac apps; great for launches."
+ },
+ {
+  "id": "r-marketing",
+  "name": "r/marketing",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/marketing/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": ""
+ },
+ {
+  "id": "r-microsaas",
+  "name": "r/microsaas",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/microsaas/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": ""
+ },
+ {
+  "id": "r-nocode",
+  "name": "r/nocode",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/nocode/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": ""
+ },
+ {
+  "id": "r-opensource",
+  "name": "r/opensource",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/opensource/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": ""
+ },
+ {
+  "id": "r-producthunters",
+  "name": "r/ProductHunters",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/ProductHunters/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": "Share your PH launch."
+ },
+ {
+  "id": "r-productivity",
+  "name": "r/productivity",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/productivity/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": "Promo only in designated threads."
+ },
+ {
+  "id": "r-programming",
+  "name": "r/programming",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/programming/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": "Technical write-ups only, not product pitches."
+ },
+ {
+  "id": "r-python",
+  "name": "r/Python",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/Python/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": "Showcase flair."
+ },
+ {
+  "id": "r-reactjs",
+  "name": "r/reactjs",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/reactjs/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": ""
+ },
+ {
+  "id": "r-rust",
+  "name": "r/rust",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/rust/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": ""
+ },
+ {
+  "id": "r-selfhosted",
+  "name": "r/selfhosted",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/selfhosted/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": "For self-hostable software."
+ },
+ {
+  "id": "r-shamelessplug",
+  "name": "r/shamelessplug",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/shamelessplug/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": ""
+ },
+ {
+  "id": "r-sidehustle",
+  "name": "r/sidehustle",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/sidehustle/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": ""
+ },
+ {
+  "id": "r-smallbusiness",
+  "name": "r/smallbusiness",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/smallbusiness/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": "Strict promo rules."
+ },
+ {
+  "id": "r-software",
+  "name": "r/software",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/software/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": ""
+ },
+ {
+  "id": "r-somethingimade",
+  "name": "r/somethingimade",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/somethingimade/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": ""
+ },
+ {
+  "id": "r-startup-ideas",
+  "name": "r/startup_ideas",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/startup_ideas/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": ""
+ },
+ {
+  "id": "r-startups",
+  "name": "r/startups",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/startups/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": "No self-promo except in weekly 'Share Your Startup' thread."
+ },
+ {
+  "id": "r-thesidehustle",
+  "name": "r/thesidehustle",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/thesidehustle/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": ""
+ },
+ {
+  "id": "r-ui-design",
+  "name": "r/UI_Design",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/UI_Design/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": ""
+ },
+ {
+  "id": "r-webapps",
+  "name": "r/webapps",
+  "category": "Reddit",
+  "url": "https://www.reddit.com/r/webapps/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": ""
+ },
+ {
+  "id": "behance",
+  "name": "Behance",
+  "category": "Community",
+  "url": "https://www.behance.net/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": "Case study of product design."
+ },
+ {
+  "id": "bluesky",
+  "name": "Bluesky",
+  "category": "Community",
+  "url": "https://bsky.app/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": "Big dev/indie crowd."
+ },
+ {
+  "id": "discord-niche-servers-showcase-channels",
+  "name": "Discord niche servers (#showcase channels)",
+  "category": "Community",
+  "url": "https://discord.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": "Join niche servers; use #showcase channels."
+ },
+ {
+  "id": "dribbble",
+  "name": "Dribbble",
+  "category": "Community",
+  "url": "https://dribbble.com/uploads/new",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": "Post UI shots of your product."
+ },
+ {
+  "id": "facebook-groups-startup-saas",
+  "name": "Facebook Groups (startup/SaaS)",
+  "category": "Community",
+  "url": "https://www.facebook.com/groups/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": "SaaS Growth Hacks, Startup groups etc."
+ },
+ {
+  "id": "founders-network-founder-institute",
+  "name": "Founders Network / Founder Institute",
+  "category": "Community",
+  "url": "https://fi.co/",
+  "pricing": "Paid",
+  "priority": 2,
+  "mode": "post",
+  "notes": ""
+ },
+ {
+  "id": "hacker-news-ask-hn-launch-hn",
+  "name": "Hacker News: Ask HN / Launch HN",
+  "category": "Community",
+  "url": "https://news.ycombinator.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": "Launch HN is for YC companies only."
+ },
+ {
+  "id": "instagram",
+  "name": "Instagram",
+  "category": "Community",
+  "url": "https://www.instagram.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": ""
+ },
+ {
+  "id": "lemmy-programming-startups",
+  "name": "Lemmy (programming/startups)",
+  "category": "Community",
+  "url": "https://lemmy.world/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": ""
+ },
+ {
+  "id": "linkedin-post",
+  "name": "LinkedIn Post",
+  "category": "Community",
+  "url": "https://www.linkedin.com/feed/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": "Founder story post."
+ },
+ {
+  "id": "mastodon-fosstodon-etc",
+  "name": "Mastodon (fosstodon etc.)",
+  "category": "Community",
+  "url": "https://fosstodon.org/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": "Good for OSS."
+ },
+ {
+  "id": "medium",
+  "name": "Medium",
+  "category": "Community",
+  "url": "https://medium.com/new-story",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": "Write launch story; submit to publications like 'The Startup'."
+ },
+ {
+  "id": "microconf-connect",
+  "name": "Microconf Connect",
+  "category": "Community",
+  "url": "https://microconfconnect.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "post",
+  "notes": "Bootstrapper community."
+ },
+ {
+  "id": "peerlist-projects",
+  "name": "Peerlist Projects",
+  "category": "Community",
+  "url": "https://peerlist.io/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": "Add project to profile."
+ },
+ {
+  "id": "pinterest",
+  "name": "Pinterest",
+  "category": "Community",
+  "url": "https://www.pinterest.com/pin-creation-tool/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": "Good for visual/consumer products."
+ },
+ {
+  "id": "product-led-growth-collective",
+  "name": "Product-Led Growth Collective",
+  "category": "Community",
+  "url": "https://www.productled.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "post",
+  "notes": ""
+ },
+ {
+  "id": "quora",
+  "name": "Quora",
+  "category": "Community",
+  "url": "https://www.quora.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": "Answer questions in your niche w/ link."
+ },
+ {
+  "id": "ramen-club-ex-indie-worldwide",
+  "name": "Ramen Club (ex-Indie Worldwide)",
+  "category": "Community",
+  "url": "https://indieworldwide.co/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": "Indie maker community."
+ },
+ {
+  "id": "slashdot",
+  "name": "Slashdot",
+  "category": "Community",
+  "url": "https://slashdot.org/submission",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": "Story submission."
+ },
+ {
+  "id": "stack-overflow-answers",
+  "name": "Stack Overflow (answers)",
+  "category": "Community",
+  "url": "https://stackoverflow.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": "Only where genuinely relevant."
+ },
+ {
+  "id": "startup-grind",
+  "name": "Startup Grind",
+  "category": "Community",
+  "url": "https://www.startupgrind.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": "Global founder community/events."
+ },
+ {
+  "id": "startup-school-yc-forum",
+  "name": "Startup School (YC) Forum",
+  "category": "Community",
+  "url": "https://www.startupschool.org/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": "YC founder community; share in group channels."
+ },
+ {
+  "id": "substack-notes",
+  "name": "Substack Notes",
+  "category": "Community",
+  "url": "https://substack.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": ""
+ },
+ {
+  "id": "threads",
+  "name": "Threads",
+  "category": "Community",
+  "url": "https://www.threads.net/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": ""
+ },
+ {
+  "id": "tiktok",
+  "name": "TikTok",
+  "category": "Community",
+  "url": "https://www.tiktok.com/upload",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "Short demos; huge for consumer apps."
+ },
+ {
+  "id": "tildes",
+  "name": "Tildes",
+  "category": "Community",
+  "url": "https://tildes.net/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": "Invite only; thoughtful community."
+ },
+ {
+  "id": "women-who-code-elpha",
+  "name": "Women Who Code / Elpha",
+  "category": "Community",
+  "url": "https://elpha.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": "Community for women in tech."
+ },
+ {
+  "id": "x-communities-build-in-public",
+  "name": "X Communities: Build in Public",
+  "category": "Community",
+  "url": "https://x.com/i/communities",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": "Post in Build in Public / Indie Hackers communities."
+ },
+ {
+  "id": "youtube",
+  "name": "YouTube",
+  "category": "Community",
+  "url": "https://studio.youtube.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "Demo video; SEO."
+ },
+ {
+  "id": "allstartups-info",
+  "name": "AllStartups.info",
+  "category": "Startup Database",
+  "url": "https://allstartups.info/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Global startup directory."
+ },
+ {
+  "id": "bowora",
+  "name": "Bowora",
+  "category": "Startup Database",
+  "url": "https://bowora.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Founder network + startup listings."
+ },
+ {
+  "id": "built-in",
+  "name": "Built In",
+  "category": "Startup Database",
+  "url": "https://builtin.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Tech company profiles by city (US)."
+ },
+ {
+  "id": "dealroom",
+  "name": "Dealroom",
+  "category": "Startup Database",
+  "url": "https://app.dealroom.co/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "European-heavy startup database; claim/add company."
+ },
+ {
+  "id": "eu-startups-directory",
+  "name": "EU-Startups Directory",
+  "category": "Startup Database",
+  "url": "https://www.eu-startups.com/directory/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "European startup directory."
+ },
+ {
+  "id": "f6s",
+  "name": "F6S",
+  "category": "Startup Database",
+  "url": "https://www.f6s.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Startup profile; accelerators, deals, programs."
+ },
+ {
+  "id": "failory",
+  "name": "Failory",
+  "category": "Startup Database",
+  "url": "https://www.failory.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": "Founder interviews + startup lists; pitch an interview."
+ },
+ {
+  "id": "flippa",
+  "name": "Flippa",
+  "category": "Startup Database",
+  "url": "https://flippa.com/",
+  "pricing": "Paid",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "Sell or showcase online businesses."
+ },
+ {
+  "id": "glassdoor-employer",
+  "name": "Glassdoor (Employer)",
+  "category": "Startup Database",
+  "url": "https://www.glassdoor.com/employers/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Claim employer profile."
+ },
+ {
+  "id": "gust",
+  "name": "Gust",
+  "category": "Startup Database",
+  "url": "https://gust.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Startup profile for angel/accelerator applications."
+ },
+ {
+  "id": "microns-acquire-listing-to-sell",
+  "name": "Microns / Acquire (listing to sell)",
+  "category": "Startup Database",
+  "url": "https://acquire.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "Marketplace to sell startups; also exposure."
+ },
+ {
+  "id": "open-startups-baremetrics-open",
+  "name": "Open Startups (Baremetrics Open)",
+  "category": "Startup Database",
+  "url": "https://baremetrics.com/open-startups",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "For startups sharing metrics publicly."
+ },
+ {
+  "id": "owler",
+  "name": "Owler",
+  "category": "Startup Database",
+  "url": "https://www.owler.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Company profile, competitive intel."
+ },
+ {
+  "id": "pitchbook",
+  "name": "PitchBook",
+  "category": "Startup Database",
+  "url": "https://pitchbook.com/profiles/claim-profile",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Claim/update company profile."
+ },
+ {
+  "id": "saasgrave",
+  "name": "Saasgrave",
+  "category": "Startup Database",
+  "url": "https://saasgrave.org/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "Marketplace for dead/zero-revenue startups; also has weekly launches."
+ },
+ {
+  "id": "seedtable",
+  "name": "Seedtable",
+  "category": "Startup Database",
+  "url": "https://www.seedtable.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Curated startup lists for investors."
+ },
+ {
+  "id": "startup-lift",
+  "name": "Startup Lift",
+  "category": "Startup Database",
+  "url": "https://www.startuplift.com/submit-your-startup/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Get feedback + exposure."
+ },
+ {
+  "id": "startup-ranking",
+  "name": "Startup Ranking",
+  "category": "Startup Database",
+  "url": "https://www.startupranking.com/startup/create",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Global startup ranking by web presence."
+ },
+ {
+  "id": "startup-tracker",
+  "name": "Startup Tracker",
+  "category": "Startup Database",
+  "url": "https://startuptracker.io/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Startup discovery database."
+ },
+ {
+  "id": "startup88",
+  "name": "Startup88",
+  "category": "Startup Database",
+  "url": "https://startup88.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Startup news/directory."
+ },
+ {
+  "id": "startupblink",
+  "name": "StartupBlink",
+  "category": "Startup Database",
+  "url": "https://www.startupblink.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Global startup ecosystem map; add your startup."
+ },
+ {
+  "id": "startuptrusted",
+  "name": "StartupTrusted",
+  "category": "Startup Database",
+  "url": "https://startuptrusted.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "startupxplore",
+  "name": "Startupxplore",
+  "category": "Startup Database",
+  "url": "https://startupxplore.com/en",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "European startup + investor network."
+ },
+ {
+  "id": "sumodir",
+  "name": "SumoDir",
+  "category": "Startup Database",
+  "url": "https://sumodir.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "techpluto",
+  "name": "Techpluto",
+  "category": "Startup Database",
+  "url": "https://www.techpluto.com/submit-a-startup/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Startup coverage/directory."
+ },
+ {
+  "id": "tracxn",
+  "name": "Tracxn",
+  "category": "Startup Database",
+  "url": "https://tracxn.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Startup database used by VCs; request listing."
+ },
+ {
+  "id": "trustmrr",
+  "name": "TrustMRR",
+  "category": "Startup Database",
+  "url": "https://trustmrr.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Verified-revenue startup database (Stripe-verified)."
+ },
+ {
+  "id": "yc-startup-directory",
+  "name": "YC Startup Directory",
+  "category": "Startup Database",
+  "url": "https://www.ycombinator.com/companies",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Only for YC companies (apply to YC to get listed)."
+ },
+ {
+  "id": "alternative-tools",
+  "name": "Alternative.tools",
+  "category": "Software Review Site",
+  "url": "https://alternative.tools/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "clutch",
+  "name": "Clutch",
+  "category": "Software Review Site",
+  "url": "https://clutch.co/get-listed",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Mainly agencies/services."
+ },
+ {
+  "id": "crozdesk-revleads",
+  "name": "Crozdesk (Revleads)",
+  "category": "Software Review Site",
+  "url": "https://vendor.crozdesk.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Business software discovery."
+ },
+ {
+  "id": "featuredcustomers",
+  "name": "FeaturedCustomers",
+  "category": "Software Review Site",
+  "url": "https://www.featuredcustomers.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "B2B customer-reference platform."
+ },
+ {
+  "id": "financesonline",
+  "name": "FinancesOnline",
+  "category": "Software Review Site",
+  "url": "https://financesonline.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "B2B software reviews."
+ },
+ {
+  "id": "gartner-peer-insights",
+  "name": "Gartner Peer Insights",
+  "category": "Software Review Site",
+  "url": "https://www.gartner.com/peer-insights/vendors",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Enterprise review site."
+ },
+ {
+  "id": "getapp",
+  "name": "GetApp",
+  "category": "Software Review Site",
+  "url": "https://www.getapp.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Listed via same Gartner vendor portal as Capterra."
+ },
+ {
+  "id": "goodfirms",
+  "name": "GoodFirms",
+  "category": "Software Review Site",
+  "url": "https://www.goodfirms.co/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Software + agency reviews."
+ },
+ {
+  "id": "macupdate",
+  "name": "MacUpdate",
+  "category": "Software Review Site",
+  "url": "https://www.macupdate.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Mac app catalog; developer submission."
+ },
+ {
+  "id": "peerspot",
+  "name": "PeerSpot",
+  "category": "Software Review Site",
+  "url": "https://www.peerspot.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Enterprise tech reviews."
+ },
+ {
+  "id": "product-hunt-reviews",
+  "name": "Product Hunt Reviews",
+  "category": "Software Review Site",
+  "url": "https://www.producthunt.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Collect reviews on your PH product page."
+ },
+ {
+  "id": "productivity-directory",
+  "name": "Productivity Directory",
+  "category": "Software Review Site",
+  "url": "https://productivity.directory/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Productivity tools directory."
+ },
+ {
+  "id": "publishyoursaas",
+  "name": "PublishYourSaaS",
+  "category": "Software Review Site",
+  "url": "https://publishyoursaas.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "saas-browser",
+  "name": "SaaS Browser",
+  "category": "Software Review Site",
+  "url": "https://saasbrowser.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "SaaS database."
+ },
+ {
+  "id": "saas-discovery",
+  "name": "SaaS Discovery",
+  "category": "Software Review Site",
+  "url": "https://www.saasdiscovery.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "SaaS discovery directory."
+ },
+ {
+  "id": "saasadviser",
+  "name": "SaaSAdviser",
+  "category": "Software Review Site",
+  "url": "https://www.saasadviser.co/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "SaaS review directory."
+ },
+ {
+  "id": "saascity",
+  "name": "SaaSCity",
+  "category": "Software Review Site",
+  "url": "https://saascity.io/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "saasgenius",
+  "name": "SaaSGenius",
+  "category": "Software Review Site",
+  "url": "https://www.saasgenius.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "SaaS reviews."
+ },
+ {
+  "id": "saasified",
+  "name": "SaaSified",
+  "category": "Software Review Site",
+  "url": "https://www.saasified.co/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "SaaS directory."
+ },
+ {
+  "id": "saasworthy",
+  "name": "SaaSworthy",
+  "category": "Software Review Site",
+  "url": "https://www.saasworthy.com/list-your-product",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "SaaS discovery/review site."
+ },
+ {
+  "id": "serchen",
+  "name": "Serchen",
+  "category": "Software Review Site",
+  "url": "https://www.serchen.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Cloud services directory."
+ },
+ {
+  "id": "slant",
+  "name": "Slant",
+  "category": "Software Review Site",
+  "url": "https://www.slant.co/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Community-ranked 'best X' lists; add your product as an option."
+ },
+ {
+  "id": "softpedia",
+  "name": "Softpedia",
+  "category": "Software Review Site",
+  "url": "https://www.softpedia.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Desktop/mobile software downloads catalog; submit via form."
+ },
+ {
+  "id": "software-advice",
+  "name": "Software Advice",
+  "category": "Software Review Site",
+  "url": "https://www.softwareadvice.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Listed via Gartner vendor portal."
+ },
+ {
+  "id": "software-finder",
+  "name": "Software Finder",
+  "category": "Software Review Site",
+  "url": "https://softwarefinder.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Software comparisons."
+ },
+ {
+  "id": "software-informer",
+  "name": "Software Informer",
+  "category": "Software Review Site",
+  "url": "https://software.informer.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Desktop software catalog."
+ },
+ {
+  "id": "softwaresuggest",
+  "name": "SoftwareSuggest",
+  "category": "Software Review Site",
+  "url": "https://www.softwaresuggest.com/vendors",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "India-heavy software marketplace."
+ },
+ {
+  "id": "softwareworld",
+  "name": "SoftwareWorld",
+  "category": "Software Review Site",
+  "url": "https://www.softwareworld.co/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Software reviews & ratings."
+ },
+ {
+  "id": "sourceforge",
+  "name": "SourceForge",
+  "category": "Software Review Site",
+  "url": "https://sourceforge.net/software/vendors/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Business software directory + reviews (also OSS hosting)."
+ },
+ {
+  "id": "spotsaas",
+  "name": "Spotsaas",
+  "category": "Software Review Site",
+  "url": "https://www.spotsaas.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "SaaS comparison/review site."
+ },
+ {
+  "id": "stackshare",
+  "name": "StackShare",
+  "category": "Software Review Site",
+  "url": "https://stackshare.io/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Dev tool/stack profiles; add tool + company stack."
+ },
+ {
+  "id": "startup-buffer",
+  "name": "Startup Buffer",
+  "category": "Software Review Site",
+  "url": "https://startupbuffer.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Startup directory/listing."
+ },
+ {
+  "id": "submitmysaas",
+  "name": "SubmitMySaas",
+  "category": "Software Review Site",
+  "url": "https://submitmysaas.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "tekpon",
+  "name": "Tekpon",
+  "category": "Software Review Site",
+  "url": "https://tekpon.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "SaaS marketplace & reviews."
+ },
+ {
+  "id": "thesaasdir",
+  "name": "TheSaaSDir",
+  "category": "Software Review Site",
+  "url": "https://thesaasdir.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "tool-finder",
+  "name": "Tool Finder",
+  "category": "Software Review Site",
+  "url": "https://toolfinder.co/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Productivity tool directory."
+ },
+ {
+  "id": "tooldirs",
+  "name": "ToolDirs",
+  "category": "Software Review Site",
+  "url": "https://tooldirs.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "toolfio",
+  "name": "Toolfio",
+  "category": "Software Review Site",
+  "url": "https://toolfio.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "toolsforhumans",
+  "name": "ToolsForHumans",
+  "category": "Software Review Site",
+  "url": "https://www.toolsforhumans.ai/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Tool directory/reviews."
+ },
+ {
+  "id": "trustradius",
+  "name": "TrustRadius",
+  "category": "Software Review Site",
+  "url": "https://www.trustradius.com/vendors",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "B2B review site."
+ },
+ {
+  "id": "uno-directory",
+  "name": "Uno Directory",
+  "category": "Software Review Site",
+  "url": "https://uno.directory/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "uptodown",
+  "name": "Uptodown",
+  "category": "Software Review Site",
+  "url": "https://en.uptodown.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "App download catalog; developer program."
+ },
+ {
+  "id": "ai-agents-directory",
+  "name": "AI Agents Directory",
+  "category": "AI Directory",
+  "url": "https://aiagentsdirectory.com/submit-agent",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "AI agents landscape/directory."
+ },
+ {
+  "id": "ai-agents-list",
+  "name": "AI Agents List",
+  "category": "AI Directory",
+  "url": "https://aiagentslist.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "AI agents directory."
+ },
+ {
+  "id": "ai-center",
+  "name": "AI Center",
+  "category": "AI Directory",
+  "url": "https://aicenter.ai/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "AI tools directory."
+ },
+ {
+  "id": "ai-depot",
+  "name": "AI Depot",
+  "category": "AI Directory",
+  "url": "https://aidepot.co/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "AI tools directory."
+ },
+ {
+  "id": "ai-hustle",
+  "name": "AI Hustle",
+  "category": "AI Directory",
+  "url": "https://aihustle.tools/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "ai-launch-space",
+  "name": "AI Launch Space",
+  "category": "AI Directory",
+  "url": "https://ailaunchspace.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "ai-library",
+  "name": "AI Library",
+  "category": "AI Directory",
+  "url": "https://library.phygital.plus/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "AI tools library."
+ },
+ {
+  "id": "ai-parabellum",
+  "name": "AI Parabellum",
+  "category": "AI Directory",
+  "url": "https://aiparabellum.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "AI tools directory."
+ },
+ {
+  "id": "ai-tool-mall",
+  "name": "AI Tool Mall",
+  "category": "AI Directory",
+  "url": "https://aitoolmall.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "AI tools directory."
+ },
+ {
+  "id": "ai-tool-saver",
+  "name": "AI Tool Saver",
+  "category": "AI Directory",
+  "url": "https://aitoolsaver.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "ai-tool-trek",
+  "name": "AI Tool Trek",
+  "category": "AI Directory",
+  "url": "https://aitooltrek.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "ai-tools-aitools-inc",
+  "name": "AI Tools (aitools.inc)",
+  "category": "AI Directory",
+  "url": "https://aitools.inc/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "AI tools directory + newsletter."
+ },
+ {
+  "id": "ai-tools-club",
+  "name": "AI Tools Club",
+  "category": "AI Directory",
+  "url": "https://aitoolsclub.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "AI tools directory."
+ },
+ {
+  "id": "ai-tools-directory",
+  "name": "AI Tools Directory",
+  "category": "AI Directory",
+  "url": "https://aitoolsdirectory.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "AI tools directory."
+ },
+ {
+  "id": "ai-toolz-dir",
+  "name": "AI Toolz Dir",
+  "category": "AI Directory",
+  "url": "https://aitoolzdir.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "ai-top-tools",
+  "name": "AI Top Tools",
+  "category": "AI Directory",
+  "url": "https://aitoptools.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "AI directory."
+ },
+ {
+  "id": "ai-valley",
+  "name": "AI Valley",
+  "category": "AI Directory",
+  "url": "https://aivalley.ai/submit-tool/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "AI tools + newsletter."
+ },
+ {
+  "id": "ai-wiki",
+  "name": "AI Wiki",
+  "category": "AI Directory",
+  "url": "https://aiwiki.ai/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "AI wiki."
+ },
+ {
+  "id": "aibesttop",
+  "name": "AIBestTop",
+  "category": "AI Directory",
+  "url": "https://aibesttop.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "aicyclopedia",
+  "name": "AIcyclopedia",
+  "category": "AI Directory",
+  "url": "https://www.aicyclopedia.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "AI tools encyclopedia."
+ },
+ {
+  "id": "aidirectori-es",
+  "name": "AIDirectori.es",
+  "category": "AI Directory",
+  "url": "https://aidirectori.es/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Meta-list of AI directories."
+ },
+ {
+  "id": "aihuntlist",
+  "name": "AIHuntList",
+  "category": "AI Directory",
+  "url": "https://aihuntlist.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "aitoolhunt",
+  "name": "AIToolHunt",
+  "category": "AI Directory",
+  "url": "https://aitoolhunt.co/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "aitoolnet",
+  "name": "AItoolnet",
+  "category": "AI Directory",
+  "url": "https://www.aitoolnet.com/submit",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "AI tools directory."
+ },
+ {
+  "id": "aitools-fyi",
+  "name": "aitools.fyi",
+  "category": "AI Directory",
+  "url": "https://aitools.fyi/submit",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "AI tools directory."
+ },
+ {
+  "id": "aitoolsarena",
+  "name": "AIToolsArena",
+  "category": "AI Directory",
+  "url": "https://aitoolsarena.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "AI tools directory."
+ },
+ {
+  "id": "aitop10-tools",
+  "name": "AITop10 Tools",
+  "category": "AI Directory",
+  "url": "https://aitop10.tools/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "aixploria",
+  "name": "AIxploria",
+  "category": "AI Directory",
+  "url": "https://www.aixploria.com/en/featured-on-aixploria/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "AI directory (multi-language)."
+ },
+ {
+  "id": "altern",
+  "name": "Altern",
+  "category": "AI Directory",
+  "url": "https://altern.ai/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "AI tools/resources directory."
+ },
+ {
+  "id": "best-ai-tools",
+  "name": "Best AI Tools",
+  "category": "AI Directory",
+  "url": "https://www.bestaitools.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "AI tools directory."
+ },
+ {
+  "id": "collectai-tools",
+  "name": "CollectAI.Tools",
+  "category": "AI Directory",
+  "url": "https://collectai.tools/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "dang-ai",
+  "name": "Dang.ai",
+  "category": "AI Directory",
+  "url": "https://dang.ai/submit",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "AI tools directory."
+ },
+ {
+  "id": "directory-for-ai",
+  "name": "Directory for AI",
+  "category": "AI Directory",
+  "url": "https://directoryforai.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "easy-with-ai",
+  "name": "Easy With AI",
+  "category": "AI Directory",
+  "url": "https://easywithai.com/submit-tool/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "AI tool directory."
+ },
+ {
+  "id": "feedough-ai-tools",
+  "name": "Feedough AI tools",
+  "category": "AI Directory",
+  "url": "https://www.feedough.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Startup/AI content + tools."
+ },
+ {
+  "id": "findmyaitool",
+  "name": "FindMyAITool",
+  "category": "AI Directory",
+  "url": "https://findmyaitool.com/submit-tool",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "AI tools directory."
+ },
+ {
+  "id": "glama-mcp",
+  "name": "Glama MCP",
+  "category": "AI Directory",
+  "url": "https://glama.ai/mcp/servers",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "MCP server directory."
+ },
+ {
+  "id": "good-ai-tools",
+  "name": "Good AI Tools",
+  "category": "AI Directory",
+  "url": "https://goodaitools.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "gpts-hunter",
+  "name": "GPTs Hunter",
+  "category": "AI Directory",
+  "url": "https://www.gptshunter.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Directory for custom GPTs."
+ },
+ {
+  "id": "hugging-face-spaces",
+  "name": "Hugging Face Spaces",
+  "category": "AI Directory",
+  "url": "https://huggingface.co/new-space",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "Host an AI demo; trending page is discovery."
+ },
+ {
+  "id": "indieai-directory",
+  "name": "IndieAI Directory",
+  "category": "AI Directory",
+  "url": "https://indieai.directory/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "insidr-ai",
+  "name": "Insidr.ai",
+  "category": "AI Directory",
+  "url": "https://www.insidr.ai/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "AI tools directory."
+ },
+ {
+  "id": "mcp-so",
+  "name": "MCP.so",
+  "category": "AI Directory",
+  "url": "https://mcp.so/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "MCP servers directory (if you ship an MCP server)."
+ },
+ {
+  "id": "navtools",
+  "name": "NavTools",
+  "category": "AI Directory",
+  "url": "https://navtools.ai/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "AI tools navigation site."
+ },
+ {
+  "id": "newtools-site",
+  "name": "NewTools.site",
+  "category": "AI Directory",
+  "url": "https://newtools.site/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "openai-gpt-store",
+  "name": "OpenAI GPT Store",
+  "category": "AI Directory",
+  "url": "https://chatgpt.com/gpts",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "Publish a custom GPT that funnels to product."
+ },
+ {
+  "id": "openfuture",
+  "name": "OpenFuture",
+  "category": "AI Directory",
+  "url": "https://openfuture.ai/submit-tool",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "AI tools database."
+ },
+ {
+  "id": "powerusers-ai",
+  "name": "Powerusers AI",
+  "category": "AI Directory",
+  "url": "https://powerusers.ai/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "AI tools directory + guides."
+ },
+ {
+  "id": "pulsemcp",
+  "name": "PulseMCP",
+  "category": "AI Directory",
+  "url": "https://www.pulsemcp.com/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "MCP server directory + newsletter."
+ },
+ {
+  "id": "replicate",
+  "name": "Replicate",
+  "category": "AI Directory",
+  "url": "https://replicate.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "Publish models; explore page."
+ },
+ {
+  "id": "saas-ai-tools",
+  "name": "SaaS AI Tools",
+  "category": "AI Directory",
+  "url": "https://saasaitools.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "AI SaaS directory."
+ },
+ {
+  "id": "showmebest-ai",
+  "name": "ShowMeBest.ai",
+  "category": "AI Directory",
+  "url": "https://showmebest.ai/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "smithery",
+  "name": "Smithery",
+  "category": "AI Directory",
+  "url": "https://smithery.ai/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "MCP server registry."
+ },
+ {
+  "id": "submitaitools-org",
+  "name": "SubmitAITools.org",
+  "category": "AI Directory",
+  "url": "https://submitaitools.org/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "the-rundown-ai-tools-supertools",
+  "name": "The Rundown AI Tools (Supertools)",
+  "category": "AI Directory",
+  "url": "https://www.rundown.ai/submit",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Tied to The Rundown newsletter audience."
+ },
+ {
+  "id": "toolpilot",
+  "name": "ToolPilot",
+  "category": "AI Directory",
+  "url": "https://www.toolpilot.ai/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "AI tools directory."
+ },
+ {
+  "id": "toolscout",
+  "name": "Toolscout",
+  "category": "AI Directory",
+  "url": "https://toolscout.ai/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "AI tools directory."
+ },
+ {
+  "id": "topai-tools",
+  "name": "TopAI.tools",
+  "category": "AI Directory",
+  "url": "https://topai.tools/submit",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "AI tools directory."
+ },
+ {
+  "id": "topapps-ai",
+  "name": "TopApps.ai",
+  "category": "AI Directory",
+  "url": "https://topapps.ai/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "AI apps directory; 'Submit' in nav."
+ },
+ {
+  "id": "vibe-coding-directory",
+  "name": "Vibe Coding Directory",
+  "category": "AI Directory",
+  "url": "https://vibecodingdirectory.org/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "what-the-ai",
+  "name": "What The AI",
+  "category": "AI Directory",
+  "url": "https://whattheai.tech/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "AI tools directory."
+ },
+ {
+  "id": "api-list-public-apis",
+  "name": "API List / Public APIs",
+  "category": "Dev / Open Source",
+  "url": "https://github.com/public-apis/public-apis",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "pr",
+  "notes": "PR if you have a public API."
+ },
+ {
+  "id": "awesome-open-source",
+  "name": "Awesome Open Source",
+  "category": "Dev / Open Source",
+  "url": "https://awesomeopensource.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "OSS project directory."
+ },
+ {
+  "id": "awesome-self-hosted",
+  "name": "Awesome Self-Hosted",
+  "category": "Dev / Open Source",
+  "url": "https://github.com/awesome-selfhosted/awesome-selfhosted-data",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "pr",
+  "notes": "PR if self-hostable OSS."
+ },
+ {
+  "id": "bytes-dev-newsletter",
+  "name": "Bytes.dev newsletter",
+  "category": "Dev / Open Source",
+  "url": "https://bytes.dev/",
+  "pricing": "Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "JS newsletter sponsor."
+ },
+ {
+  "id": "codrops",
+  "name": "Codrops",
+  "category": "Dev / Open Source",
+  "url": "https://tympanus.net/codrops/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Frontend/design dev community."
+ },
+ {
+  "id": "console-dev",
+  "name": "Console.dev",
+  "category": "Dev / Open Source",
+  "url": "https://console.dev/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Curated dev tools newsletter; submit via site."
+ },
+ {
+  "id": "cooperpress-language-weeklies-golang-rub",
+  "name": "Cooperpress language weeklies (Golang/Ruby/etc.)",
+  "category": "Dev / Open Source",
+  "url": "https://cooperpress.com/publications/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Language-specific newsletters."
+ },
+ {
+  "id": "daily-dev-squads",
+  "name": "daily.dev Squads",
+  "category": "Dev / Open Source",
+  "url": "https://app.daily.dev/squads",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": "Share to dev feed squads."
+ },
+ {
+  "id": "dev-tools-dir",
+  "name": "Dev Tools Dir",
+  "category": "Dev / Open Source",
+  "url": "https://devtoolsdir.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "docker-hub",
+  "name": "Docker Hub",
+  "category": "Dev / Open Source",
+  "url": "https://hub.docker.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "Publish images for self-hosters."
+ },
+ {
+  "id": "echo-js",
+  "name": "Echo JS",
+  "category": "Dev / Open Source",
+  "url": "https://www.echojs.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": "JavaScript news; login to submit."
+ },
+ {
+  "id": "free-for-dev",
+  "name": "Free for Dev",
+  "category": "Dev / Open Source",
+  "url": "https://github.com/ripienaar/free-for-dev",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "pr",
+  "notes": "PR if you have a free tier for devs."
+ },
+ {
+  "id": "github-marketplace",
+  "name": "GitHub Marketplace",
+  "category": "Dev / Open Source",
+  "url": "https://github.com/marketplace",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "List GitHub App/Action."
+ },
+ {
+  "id": "hacker-newsletter",
+  "name": "Hacker Newsletter",
+  "category": "Dev / Open Source",
+  "url": "https://hackernewsletter.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Curates from HN - do well on HN to land here."
+ },
+ {
+  "id": "hashnode",
+  "name": "Hashnode",
+  "category": "Dev / Open Source",
+  "url": "https://hashnode.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": "Dev blog platform; post launch writeups."
+ },
+ {
+  "id": "javascript-weekly-cooperpress",
+  "name": "JavaScript Weekly (Cooperpress)",
+  "category": "Dev / Open Source",
+  "url": "https://cooperpress.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Email editors with links; sponsor for guaranteed."
+ },
+ {
+  "id": "jetbrains-marketplace",
+  "name": "JetBrains Marketplace",
+  "category": "Dev / Open Source",
+  "url": "https://plugins.jetbrains.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "Ship an IDE plugin."
+ },
+ {
+  "id": "libhunt",
+  "name": "LibHunt",
+  "category": "Dev / Open Source",
+  "url": "https://www.libhunt.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "OSS project discovery by language."
+ },
+ {
+  "id": "lobsters",
+  "name": "Lobsters",
+  "category": "Dev / Open Source",
+  "url": "https://lobste.rs/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "post",
+  "notes": "Invite-only; 'show' tag for your own work."
+ },
+ {
+  "id": "npm",
+  "name": "npm",
+  "category": "Dev / Open Source",
+  "url": "https://docs.npmjs.com/creating-and-publishing-unscoped-public-packages",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "Publish an SDK/CLI for discovery."
+ },
+ {
+  "id": "open-source-alternative-to",
+  "name": "Open Source Alternative To",
+  "category": "Dev / Open Source",
+  "url": "https://www.opensourcealternative.to/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "OSS alternatives directory."
+ },
+ {
+  "id": "open-vsx",
+  "name": "Open VSX",
+  "category": "Dev / Open Source",
+  "url": "https://open-vsx.org/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "Extensions for Cursor/VSCodium etc."
+ },
+ {
+  "id": "pointer-io",
+  "name": "Pointer.io",
+  "category": "Dev / Open Source",
+  "url": "https://www.pointer.io/",
+  "pricing": "Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Eng-leader newsletter (sponsor)."
+ },
+ {
+  "id": "postman-api-network",
+  "name": "Postman API Network",
+  "category": "Dev / Open Source",
+  "url": "https://www.postman.com/explore",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Publish public API collection."
+ },
+ {
+  "id": "pypi",
+  "name": "PyPI",
+  "category": "Dev / Open Source",
+  "url": "https://pypi.org/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "Publish SDK/CLI."
+ },
+ {
+  "id": "rapidapi-hub",
+  "name": "RapidAPI Hub",
+  "category": "Dev / Open Source",
+  "url": "https://rapidapi.com/studio",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "List your API."
+ },
+ {
+  "id": "selfh-st",
+  "name": "Selfh.st",
+  "category": "Dev / Open Source",
+  "url": "https://selfh.st/apps/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Self-hosted apps directory + newsletter."
+ },
+ {
+  "id": "terminal-trove",
+  "name": "Terminal Trove",
+  "category": "Dev / Open Source",
+  "url": "https://terminaltrove.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "CLI/TUI tools directory."
+ },
+ {
+  "id": "thedevtoolsdir",
+  "name": "TheDevToolsDir",
+  "category": "Dev / Open Source",
+  "url": "https://thedevtoolsdir.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Indie directory/launch site; typically free listing + paid featured, dofollow badge backlink. (From your badge list.)"
+ },
+ {
+  "id": "tldr-newsletter",
+  "name": "TLDR Newsletter",
+  "category": "Dev / Open Source",
+  "url": "https://advertise.tldr.tech/",
+  "pricing": "Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Huge tech newsletter; sponsor slots."
+ },
+ {
+  "id": "vs-code-marketplace",
+  "name": "VS Code Marketplace",
+  "category": "Dev / Open Source",
+  "url": "https://marketplace.visualstudio.com/manage",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "Ship a VS Code extension."
+ },
+ {
+  "id": "dealfuel",
+  "name": "DealFuel",
+  "category": "Deals / LTD",
+  "url": "https://www.dealfuel.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Deals marketplace."
+ },
+ {
+  "id": "dealify",
+  "name": "Dealify",
+  "category": "Deals / LTD",
+  "url": "https://dealify.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "LTD deals."
+ },
+ {
+  "id": "dealmirror",
+  "name": "DealMirror",
+  "category": "Deals / LTD",
+  "url": "https://dealmirror.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "LTD marketplace."
+ },
+ {
+  "id": "indie-deals",
+  "name": "Indie Deals",
+  "category": "Deals / LTD",
+  "url": "https://indie.deals/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Deals for indie products."
+ },
+ {
+  "id": "nachonacho",
+  "name": "NachoNacho",
+  "category": "Deals / LTD",
+  "url": "https://nachonacho.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "SaaS marketplace w/ perks."
+ },
+ {
+  "id": "product-hunt-deals",
+  "name": "Product Hunt Deals",
+  "category": "Deals / LTD",
+  "url": "https://www.producthunt.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Offer PH-exclusive deal on launch."
+ },
+ {
+  "id": "rockethub",
+  "name": "RocketHub",
+  "category": "Deals / LTD",
+  "url": "https://www.rockethub.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "LTD marketplace."
+ },
+ {
+  "id": "saas-mantra",
+  "name": "SaaS Mantra",
+  "category": "Deals / LTD",
+  "url": "https://saasmantra.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "LTD marketplace."
+ },
+ {
+  "id": "stacksocial",
+  "name": "StackSocial",
+  "category": "Deals / LTD",
+  "url": "https://www.stacksocial.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Deals marketplace (partner)."
+ },
+ {
+  "id": "apple-app-store",
+  "name": "Apple App Store",
+  "category": "App Store / Marketplace",
+  "url": "https://appstoreconnect.apple.com/",
+  "pricing": "Paid",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "$99/yr developer program."
+ },
+ {
+  "id": "atlassian-marketplace",
+  "name": "Atlassian Marketplace",
+  "category": "App Store / Marketplace",
+  "url": "https://developer.atlassian.com/platform/marketplace/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": ""
+ },
+ {
+  "id": "aws-marketplace",
+  "name": "AWS Marketplace",
+  "category": "App Store / Marketplace",
+  "url": "https://aws.amazon.com/marketplace/management/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "Enterprise buyers."
+ },
+ {
+  "id": "canva-apps",
+  "name": "Canva Apps",
+  "category": "App Store / Marketplace",
+  "url": "https://www.canva.dev/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": ""
+ },
+ {
+  "id": "discord-app-directory",
+  "name": "Discord App Directory",
+  "category": "App Store / Marketplace",
+  "url": "https://discord.com/developers/applications",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": ""
+ },
+ {
+  "id": "figma-community",
+  "name": "Figma Community",
+  "category": "App Store / Marketplace",
+  "url": "https://www.figma.com/community",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "Publish a plugin/file."
+ },
+ {
+  "id": "firefox-add-ons",
+  "name": "Firefox Add-ons",
+  "category": "App Store / Marketplace",
+  "url": "https://addons.mozilla.org/developers/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": ""
+ },
+ {
+  "id": "google-play",
+  "name": "Google Play",
+  "category": "App Store / Marketplace",
+  "url": "https://play.google.com/console",
+  "pricing": "Paid",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "$25 one-time."
+ },
+ {
+  "id": "google-workspace-marketplace",
+  "name": "Google Workspace Marketplace",
+  "category": "App Store / Marketplace",
+  "url": "https://developers.google.com/workspace/marketplace",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": ""
+ },
+ {
+  "id": "gumroad-discover",
+  "name": "Gumroad Discover",
+  "category": "App Store / Marketplace",
+  "url": "https://gumroad.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "Digital products."
+ },
+ {
+  "id": "hubspot-app-marketplace",
+  "name": "HubSpot App Marketplace",
+  "category": "App Store / Marketplace",
+  "url": "https://developers.hubspot.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": ""
+ },
+ {
+  "id": "intercom-app-store",
+  "name": "Intercom App Store",
+  "category": "App Store / Marketplace",
+  "url": "https://www.intercom.com/app-store",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": ""
+ },
+ {
+  "id": "mac-app-store-notarized-distribution",
+  "name": "Mac App Store / notarized distribution",
+  "category": "App Store / Marketplace",
+  "url": "https://developer.apple.com/macos/distribution/",
+  "pricing": "Paid",
+  "priority": 2,
+  "mode": "manual",
+  "notes": ""
+ },
+ {
+  "id": "microsoft-edge-add-ons",
+  "name": "Microsoft Edge Add-ons",
+  "category": "App Store / Marketplace",
+  "url": "https://partner.microsoft.com/dashboard/microsoftedge/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": ""
+ },
+ {
+  "id": "microsoft-store",
+  "name": "Microsoft Store",
+  "category": "App Store / Marketplace",
+  "url": "https://partner.microsoft.com/dashboard",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "Windows apps."
+ },
+ {
+  "id": "microsoft-teams-store-appsource",
+  "name": "Microsoft Teams Store / AppSource",
+  "category": "App Store / Marketplace",
+  "url": "https://appsource.microsoft.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": ""
+ },
+ {
+  "id": "obsidian-community-plugins",
+  "name": "Obsidian Community Plugins",
+  "category": "App Store / Marketplace",
+  "url": "https://github.com/obsidianmd/obsidian-releases",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "PR to list plugin."
+ },
+ {
+  "id": "polar",
+  "name": "Polar",
+  "category": "App Store / Marketplace",
+  "url": "https://polar.sh/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "Sell digital products/OSS sponsorship."
+ },
+ {
+  "id": "raycast-store",
+  "name": "Raycast Store",
+  "category": "App Store / Marketplace",
+  "url": "https://www.raycast.com/store",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "Raycast extension for Mac users."
+ },
+ {
+  "id": "salesforce-appexchange",
+  "name": "Salesforce AppExchange",
+  "category": "App Store / Marketplace",
+  "url": "https://partners.salesforce.com/",
+  "pricing": "Paid",
+  "priority": 2,
+  "mode": "manual",
+  "notes": ""
+ },
+ {
+  "id": "setapp",
+  "name": "Setapp",
+  "category": "App Store / Marketplace",
+  "url": "https://setapp.com/developers",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "Mac subscription bundle (curated)."
+ },
+ {
+  "id": "shopify-app-store",
+  "name": "Shopify App Store",
+  "category": "App Store / Marketplace",
+  "url": "https://shopify.dev/docs/apps/launch/app-store-review/submit-app-for-review",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "For e-commerce products."
+ },
+ {
+  "id": "slack-marketplace",
+  "name": "Slack Marketplace",
+  "category": "App Store / Marketplace",
+  "url": "https://api.slack.com/start/distributing",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "Slack app directory."
+ },
+ {
+  "id": "stripe-app-marketplace",
+  "name": "Stripe App Marketplace",
+  "category": "App Store / Marketplace",
+  "url": "https://marketplace.stripe.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": ""
+ },
+ {
+  "id": "wordpress-plugin-directory",
+  "name": "WordPress Plugin Directory",
+  "category": "App Store / Marketplace",
+  "url": "https://wordpress.org/plugins/developers/add/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": ""
+ },
+ {
+  "id": "zoom-app-marketplace",
+  "name": "Zoom App Marketplace",
+  "category": "App Store / Marketplace",
+  "url": "https://marketplace.zoom.us/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": ""
+ },
+ {
+  "id": "ai-breakfast",
+  "name": "AI Breakfast",
+  "category": "Newsletter",
+  "url": "https://aibreakfast.beehiiv.com/",
+  "pricing": "Paid",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": ""
+ },
+ {
+  "id": "ben-s-bites",
+  "name": "Ben's Bites",
+  "category": "Newsletter",
+  "url": "https://www.bensbites.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": "AI newsletter; submit via news.bensbites.com."
+ },
+ {
+  "id": "changelog-weekly",
+  "name": "Changelog Weekly",
+  "category": "Newsletter",
+  "url": "https://changelog.com/news",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": ""
+ },
+ {
+  "id": "frontend-focus",
+  "name": "Frontend Focus",
+  "category": "Newsletter",
+  "url": "https://frontendfoc.us/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": "Email editor."
+ },
+ {
+  "id": "hn-daily",
+  "name": "HN Daily",
+  "category": "Newsletter",
+  "url": "https://www.daemonology.net/hn-daily/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": "Curates top HN."
+ },
+ {
+  "id": "indie-bites",
+  "name": "Indie Bites",
+  "category": "Newsletter",
+  "url": "https://indiebites.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": "Indie founder podcast/newsletter."
+ },
+ {
+  "id": "indie-hackers-newsletter",
+  "name": "Indie Hackers Newsletter",
+  "category": "Newsletter",
+  "url": "https://www.indiehackers.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": "Top IH posts get included."
+ },
+ {
+  "id": "lenny-s-newsletter-jobs-community",
+  "name": "Lenny's Newsletter (jobs/community)",
+  "category": "Newsletter",
+  "url": "https://www.lennysnewsletter.com/",
+  "pricing": "Paid",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": "Community perks / product pass."
+ },
+ {
+  "id": "mindstream",
+  "name": "Mindstream",
+  "category": "Newsletter",
+  "url": "https://www.mindstream.news/",
+  "pricing": "Paid",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": "AI newsletter."
+ },
+ {
+  "id": "morning-brew-tips",
+  "name": "Morning Brew (tips)",
+  "category": "Newsletter",
+  "url": "https://www.morningbrew.com/",
+  "pricing": "Paid",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": "Sponsor; massive."
+ },
+ {
+  "id": "node-weekly",
+  "name": "Node Weekly",
+  "category": "Newsletter",
+  "url": "https://nodeweekly.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": "Email editor."
+ },
+ {
+  "id": "product-hunt-daily",
+  "name": "Product Hunt Daily",
+  "category": "Newsletter",
+  "url": "https://www.producthunt.com/newsletter",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": "Top PH launches get featured."
+ },
+ {
+  "id": "python-weekly",
+  "name": "Python Weekly",
+  "category": "Newsletter",
+  "url": "https://www.pythonweekly.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": ""
+ },
+ {
+  "id": "saas-weekly",
+  "name": "SaaS Weekly",
+  "category": "Newsletter",
+  "url": "https://saasweekly.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": ""
+ },
+ {
+  "id": "sidebar-io",
+  "name": "Sidebar.io",
+  "category": "Newsletter",
+  "url": "https://sidebar.io/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": "Design links; submit."
+ },
+ {
+  "id": "startup-digest-techstars",
+  "name": "Startup Digest (Techstars)",
+  "category": "Newsletter",
+  "url": "https://www.techstars.com/communities/startup-digest",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": ""
+ },
+ {
+  "id": "superhuman-ai",
+  "name": "Superhuman AI",
+  "category": "Newsletter",
+  "url": "https://www.superhuman.ai/",
+  "pricing": "Paid",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": ""
+ },
+ {
+  "id": "the-hustle",
+  "name": "The Hustle",
+  "category": "Newsletter",
+  "url": "https://thehustle.co/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": "Pitch stories."
+ },
+ {
+  "id": "the-rundown-ai",
+  "name": "The Rundown AI",
+  "category": "Newsletter",
+  "url": "https://www.therundown.ai/",
+  "pricing": "Paid",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": "Huge AI newsletter; sponsor/submit tool."
+ },
+ {
+  "id": "there-s-an-ai-for-that-newsletter",
+  "name": "There's An AI For That newsletter",
+  "category": "Newsletter",
+  "url": "https://theresanaiforthat.com/",
+  "pricing": "Paid",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": ""
+ },
+ {
+  "id": "tldr-ai",
+  "name": "TLDR AI",
+  "category": "Newsletter",
+  "url": "https://tldr.tech/ai",
+  "pricing": "Paid",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": "Sponsor slots."
+ },
+ {
+  "id": "web-tools-weekly",
+  "name": "Web Tools Weekly",
+  "category": "Newsletter",
+  "url": "https://webtoolsweekly.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": "Email the editor with your tool."
+ },
+ {
+  "id": "admire-the-web",
+  "name": "Admire The Web",
+  "category": "Design Gallery",
+  "url": "https://www.admiretheweb.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": ""
+ },
+ {
+  "id": "best-website-gallery",
+  "name": "Best Website Gallery",
+  "category": "Design Gallery",
+  "url": "https://bestwebsite.gallery/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": ""
+ },
+ {
+  "id": "css-design-awards",
+  "name": "CSS Design Awards",
+  "category": "Design Gallery",
+  "url": "https://www.cssdesignawards.com/submit",
+  "pricing": "Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": ""
+ },
+ {
+  "id": "css-winner",
+  "name": "CSS Winner",
+  "category": "Design Gallery",
+  "url": "https://www.csswinner.com/",
+  "pricing": "Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": ""
+ },
+ {
+  "id": "cssnectar",
+  "name": "CSSnectar",
+  "category": "Design Gallery",
+  "url": "https://cssnectar.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": ""
+ },
+ {
+  "id": "curated-design",
+  "name": "Curated.design",
+  "category": "Design Gallery",
+  "url": "https://www.curated.design/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": ""
+ },
+ {
+  "id": "dark-mode-design",
+  "name": "Dark Mode Design",
+  "category": "Design Gallery",
+  "url": "https://www.darkmodedesign.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": ""
+ },
+ {
+  "id": "framer-gallery",
+  "name": "Framer Gallery",
+  "category": "Design Gallery",
+  "url": "https://www.framer.com/gallery/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "If built on Framer."
+ },
+ {
+  "id": "godly",
+  "name": "Godly",
+  "category": "Design Gallery",
+  "url": "https://godly.website/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Curated web design."
+ },
+ {
+  "id": "httpster",
+  "name": "Httpster",
+  "category": "Design Gallery",
+  "url": "https://httpster.net/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": ""
+ },
+ {
+  "id": "land-book",
+  "name": "Land-book",
+  "category": "Design Gallery",
+  "url": "https://land-book.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Landing page gallery."
+ },
+ {
+  "id": "landingfolio",
+  "name": "Landingfolio",
+  "category": "Design Gallery",
+  "url": "https://www.landingfolio.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": ""
+ },
+ {
+  "id": "lapa-ninja",
+  "name": "Lapa Ninja",
+  "category": "Design Gallery",
+  "url": "https://www.lapa.ninja/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Landing page gallery."
+ },
+ {
+  "id": "maxibestof",
+  "name": "Maxibestof",
+  "category": "Design Gallery",
+  "url": "https://maxibestof.one/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": ""
+ },
+ {
+  "id": "minimal-gallery",
+  "name": "Minimal Gallery",
+  "category": "Design Gallery",
+  "url": "https://minimal.gallery/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": ""
+ },
+ {
+  "id": "mobbin-apps",
+  "name": "Mobbin (apps)",
+  "category": "Design Gallery",
+  "url": "https://mobbin.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Curated app UI library."
+ },
+ {
+  "id": "one-page-love",
+  "name": "One Page Love",
+  "category": "Design Gallery",
+  "url": "https://onepagelove.com/submit",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "One-page sites."
+ },
+ {
+  "id": "pages-xyz",
+  "name": "Pages.xyz",
+  "category": "Design Gallery",
+  "url": "https://www.pages.xyz/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Landing page gallery."
+ },
+ {
+  "id": "saas-landing-page",
+  "name": "SaaS Landing Page",
+  "category": "Design Gallery",
+  "url": "https://saaslandingpage.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": ""
+ },
+ {
+  "id": "saasframe",
+  "name": "SaaSFrame",
+  "category": "Design Gallery",
+  "url": "https://www.saasframe.io/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": ""
+ },
+ {
+  "id": "saaspo",
+  "name": "Saaspo",
+  "category": "Design Gallery",
+  "url": "https://saaspo.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "SaaS website inspiration."
+ },
+ {
+  "id": "siteinspire",
+  "name": "Siteinspire",
+  "category": "Design Gallery",
+  "url": "https://www.siteinspire.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": ""
+ },
+ {
+  "id": "web-design-inspiration",
+  "name": "Web Design Inspiration",
+  "category": "Design Gallery",
+  "url": "https://www.webdesign-inspiration.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": ""
+ },
+ {
+  "id": "webflow-made-in-webflow",
+  "name": "Webflow Made in Webflow",
+  "category": "Design Gallery",
+  "url": "https://webflow.com/made-in-webflow",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "If built on Webflow."
+ },
+ {
+  "id": "9to5mac-tips",
+  "name": "9to5Mac (tips)",
+  "category": "Press / Media",
+  "url": "https://9to5mac.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": "Apple apps."
+ },
+ {
+  "id": "alleywatch",
+  "name": "AlleyWatch",
+  "category": "Press / Media",
+  "url": "https://www.alleywatch.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": "NYC."
+ },
+ {
+  "id": "android-police",
+  "name": "Android Police",
+  "category": "Press / Media",
+  "url": "https://www.androidpolice.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": "Android apps."
+ },
+ {
+  "id": "betakit",
+  "name": "BetaKit",
+  "category": "Press / Media",
+  "url": "https://betakit.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": "Canada."
+ },
+ {
+  "id": "e27",
+  "name": "e27",
+  "category": "Press / Media",
+  "url": "https://e27.co/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": "SE Asia startup media + database."
+ },
+ {
+  "id": "fast-company",
+  "name": "Fast Company",
+  "category": "Press / Media",
+  "url": "https://www.fastcompany.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": ""
+ },
+ {
+  "id": "featured-com",
+  "name": "Featured.com",
+  "category": "Press / Media",
+  "url": "https://featured.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Expert quotes in publications."
+ },
+ {
+  "id": "geekwire",
+  "name": "GeekWire",
+  "category": "Press / Media",
+  "url": "https://www.geekwire.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": "Pacific NW."
+ },
+ {
+  "id": "haro-qwoted",
+  "name": "HARO / Qwoted",
+  "category": "Press / Media",
+  "url": "https://www.qwoted.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Answer journalist queries for mentions."
+ },
+ {
+  "id": "inc42",
+  "name": "Inc42",
+  "category": "Press / Media",
+  "url": "https://inc42.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": "India startups."
+ },
+ {
+  "id": "lifehacker-tips",
+  "name": "Lifehacker (tips)",
+  "category": "Press / Media",
+  "url": "https://lifehacker.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": "Consumer productivity apps."
+ },
+ {
+  "id": "macstories",
+  "name": "MacStories",
+  "category": "Press / Media",
+  "url": "https://www.macstories.net/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": "Apple apps."
+ },
+ {
+  "id": "maddyness-uk",
+  "name": "Maddyness UK",
+  "category": "Press / Media",
+  "url": "https://www.maddyness.com/uk/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": "UK/France."
+ },
+ {
+  "id": "makeuseof",
+  "name": "MakeUseOf",
+  "category": "Press / Media",
+  "url": "https://www.makeuseof.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": "Consumer apps coverage."
+ },
+ {
+  "id": "prweb-ein-presswire",
+  "name": "PRWeb / EIN Presswire",
+  "category": "Press / Media",
+  "url": "https://www.einpresswire.com/",
+  "pricing": "Paid",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "Press release distribution."
+ },
+ {
+  "id": "sifted",
+  "name": "Sifted",
+  "category": "Press / Media",
+  "url": "https://sifted.eu/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": "Europe startups (FT-backed)."
+ },
+ {
+  "id": "silicon-canals",
+  "name": "Silicon Canals",
+  "category": "Press / Media",
+  "url": "https://siliconcanals.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": "Europe."
+ },
+ {
+  "id": "springwise",
+  "name": "Springwise",
+  "category": "Press / Media",
+  "url": "https://www.springwise.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": "Innovation database - submit idea."
+ },
+ {
+  "id": "startups-magazine-uk",
+  "name": "Startups Magazine (UK)",
+  "category": "Press / Media",
+  "url": "https://startupsmagazine.co.uk/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": "UK."
+ },
+ {
+  "id": "tech-in-asia",
+  "name": "Tech in Asia",
+  "category": "Press / Media",
+  "url": "https://www.techinasia.com/companies",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": "Company database + news."
+ },
+ {
+  "id": "tech-eu",
+  "name": "Tech.eu",
+  "category": "Press / Media",
+  "url": "https://tech.eu/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": "Europe."
+ },
+ {
+  "id": "techcrunch-tips",
+  "name": "TechCrunch (tips)",
+  "category": "Press / Media",
+  "url": "https://techcrunch.com/got-a-tip/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": "Pitch with exclusive + funding news."
+ },
+ {
+  "id": "the-next-web",
+  "name": "The Next Web",
+  "category": "Press / Media",
+  "url": "https://thenextweb.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": ""
+ },
+ {
+  "id": "the-verge-tips",
+  "name": "The Verge (tips)",
+  "category": "Press / Media",
+  "url": "https://www.theverge.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": ""
+ },
+ {
+  "id": "trend-hunter",
+  "name": "Trend Hunter",
+  "category": "Press / Media",
+  "url": "https://www.trendhunter.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": "Submit innovation."
+ },
+ {
+  "id": "uktn",
+  "name": "UKTN",
+  "category": "Press / Media",
+  "url": "https://www.uktech.news/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": "UK tech."
+ },
+ {
+  "id": "venturebeat",
+  "name": "VentureBeat",
+  "category": "Press / Media",
+  "url": "https://venturebeat.com/contact/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": ""
+ },
+ {
+  "id": "wired",
+  "name": "Wired",
+  "category": "Press / Media",
+  "url": "https://www.wired.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": ""
+ },
+ {
+  "id": "wired-business",
+  "name": "Wired Business",
+  "category": "Press / Media",
+  "url": "https://wiredbusiness.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": "Business/startup news site that lists startups."
+ },
+ {
+  "id": "yourstory",
+  "name": "YourStory",
+  "category": "Press / Media",
+  "url": "https://yourstory.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "pitch",
+  "notes": "India startups."
+ },
+ {
+  "id": "airtable-universe",
+  "name": "Airtable Universe",
+  "category": "No-Code",
+  "url": "https://www.airtable.com/universe",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "Share bases/templates."
+ },
+ {
+  "id": "bubble-plugins-templates",
+  "name": "Bubble Plugins/Templates",
+  "category": "No-Code",
+  "url": "https://bubble.io/marketplace",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "Sell or publish templates/plugins."
+ },
+ {
+  "id": "framer-marketplace",
+  "name": "Framer Marketplace",
+  "category": "No-Code",
+  "url": "https://www.framer.com/marketplace/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "Templates/plugins."
+ },
+ {
+  "id": "make-integromat-apps",
+  "name": "Make (Integromat) Apps",
+  "category": "No-Code",
+  "url": "https://www.make.com/en/integrations",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "Build custom app/integration."
+ },
+ {
+  "id": "n8n-integrations-templates",
+  "name": "n8n Integrations / Templates",
+  "category": "No-Code",
+  "url": "https://n8n.io/workflows/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "Submit workflow templates."
+ },
+ {
+  "id": "no-code-founders",
+  "name": "No Code Founders",
+  "category": "No-Code",
+  "url": "https://nocodefounders.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "No-code founders community/directory."
+ },
+ {
+  "id": "nocode-tech",
+  "name": "NoCode.Tech",
+  "category": "No-Code",
+  "url": "https://www.nocode.tech/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "No-code tools + tutorials."
+ },
+ {
+  "id": "nocodelist",
+  "name": "NoCodeList",
+  "category": "No-Code",
+  "url": "https://nocodelist.co/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "No-code tools directory."
+ },
+ {
+  "id": "notion-template-gallery",
+  "name": "Notion Template Gallery",
+  "category": "No-Code",
+  "url": "https://www.notion.com/templates",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "Submit a template that points to your product."
+ },
+ {
+  "id": "webflow-marketplace",
+  "name": "Webflow Marketplace",
+  "category": "No-Code",
+  "url": "https://webflow.com/marketplace",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "Apps/templates."
+ },
+ {
+  "id": "zapier-app-directory",
+  "name": "Zapier App Directory",
+  "category": "No-Code",
+  "url": "https://developer.zapier.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "Build an integration; listed in Zapier's app directory."
+ },
+ {
+  "id": "betabound",
+  "name": "Betabound",
+  "category": "Beta Testing / Feedback",
+  "url": "https://www.betabound.com/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Beta test listings."
+ },
+ {
+  "id": "betafamily",
+  "name": "BetaFamily",
+  "category": "Beta Testing / Feedback",
+  "url": "https://betafamily.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Recruit mobile beta testers."
+ },
+ {
+  "id": "betatesting-com",
+  "name": "BetaTesting.com",
+  "category": "Beta Testing / Feedback",
+  "url": "https://betatesting.com/",
+  "pricing": "Free/Paid",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Recruit testers."
+ },
+ {
+  "id": "r-alphaandbetausers",
+  "name": "r/alphaandbetausers",
+  "category": "Beta Testing / Feedback",
+  "url": "https://www.reddit.com/r/alphaandbetausers/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Find early users."
+ },
+ {
+  "id": "roast-my-startup-r-roastmystartup",
+  "name": "Roast My Startup (r/roastmystartup)",
+  "category": "Beta Testing / Feedback",
+  "url": "https://www.reddit.com/r/roastmystartup/submit",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "form",
+  "notes": "Brutal honest feedback."
+ },
+ {
+  "id": "testflight-public-link",
+  "name": "TestFlight Public Link",
+  "category": "Beta Testing / Feedback",
+  "url": "https://developer.apple.com/testflight/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "Share public iOS beta link."
+ },
+ {
+  "id": "usertesting-lyssna",
+  "name": "UserTesting / Lyssna",
+  "category": "Beta Testing / Feedback",
+  "url": "https://www.lyssna.com/",
+  "pricing": "Paid",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "Usability testing panel."
+ },
+ {
+  "id": "antler-entrepreneur-first-techstars",
+  "name": "Antler / Entrepreneur First / Techstars",
+  "category": "Crowdfunding / Awards",
+  "url": "https://www.techstars.com/accelerators",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "Accelerators - listing in portfolio."
+ },
+ {
+  "id": "crowdcube",
+  "name": "Crowdcube",
+  "category": "Crowdfunding / Awards",
+  "url": "https://www.crowdcube.com/raise",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "UK/EU equity crowdfunding."
+ },
+ {
+  "id": "f6s-programs-accelerator-finder",
+  "name": "F6S Programs (accelerator finder)",
+  "category": "Crowdfunding / Awards",
+  "url": "https://www.f6s.com/programs",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "Find programs via F6S."
+ },
+ {
+  "id": "indiegogo",
+  "name": "Indiegogo",
+  "category": "Crowdfunding / Awards",
+  "url": "https://www.indiegogo.com/start-a-campaign",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": ""
+ },
+ {
+  "id": "kickstarter",
+  "name": "Kickstarter",
+  "category": "Crowdfunding / Awards",
+  "url": "https://www.kickstarter.com/start",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "Hardware/consumer products."
+ },
+ {
+  "id": "product-hunt-golden-kitty",
+  "name": "Product Hunt Golden Kitty",
+  "category": "Crowdfunding / Awards",
+  "url": "https://www.producthunt.com/golden-kitty-awards",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "Annual; launches from that year eligible."
+ },
+ {
+  "id": "republic",
+  "name": "Republic",
+  "category": "Crowdfunding / Awards",
+  "url": "https://republic.com/raise",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": ""
+ },
+ {
+  "id": "saas-awards",
+  "name": "SaaS Awards",
+  "category": "Crowdfunding / Awards",
+  "url": "https://www.cloud-awards.com/",
+  "pricing": "Paid",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "Cloud/SaaS Awards; paid entry."
+ },
+ {
+  "id": "techcrunch-startup-battlefield",
+  "name": "TechCrunch Startup Battlefield",
+  "category": "Crowdfunding / Awards",
+  "url": "https://techcrunch.com/startup-battlefield/",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": ""
+ },
+ {
+  "id": "webby-awards",
+  "name": "Webby Awards",
+  "category": "Crowdfunding / Awards",
+  "url": "https://www.webbyawards.com/",
+  "pricing": "Paid",
+  "priority": 2,
+  "mode": "manual",
+  "notes": ""
+ },
+ {
+  "id": "wefunder",
+  "name": "Wefunder",
+  "category": "Crowdfunding / Awards",
+  "url": "https://wefunder.com/raise",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "Equity crowdfunding (US)."
+ },
+ {
+  "id": "y-combinator",
+  "name": "Y Combinator",
+  "category": "Crowdfunding / Awards",
+  "url": "https://www.ycombinator.com/apply",
+  "pricing": "Free",
+  "priority": 2,
+  "mode": "manual",
+  "notes": "Apply; YC directory listing + Launch YC."
+ }
+]
