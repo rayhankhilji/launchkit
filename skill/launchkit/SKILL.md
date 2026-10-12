@@ -27,12 +27,18 @@ If `.launchkit/state.json` does not exist, run `lk init` first.
    `.launchkit/profile.json`. Don't move on until `lk validate` passes and the user confirms the summary.
 2. **Copy + assets**: [docs/02-copy-and-assets.md](docs/02-copy-and-assets.md)
    Write every length variant of the copy plus post/pitch drafts, and make sure the logo and screenshot files exist.
+   All copy follows the **human-writing** skill ([../human-writing/SKILL.md](../human-writing/SKILL.md)): no em dashes,
+   no AI-slop words. `lk lint-copy --profile` must pass before you submit anything.
 3. **Run settings**: ask about concurrency (default 1), which modes to run (default `form` only), budget
    (default $0), account creation, badges, and attended vs background. Save them to `launch_settings`.
    See [docs/04-parallel-and-background.md](docs/04-parallel-and-background.md).
 4. **Submission loop**: [docs/03-submission-loop.md](docs/03-submission-loop.md), with per-mode handling in
    [docs/05-site-types.md](docs/05-site-types.md).
-   `lk next` → open the URL in the browser → fill and submit → `lk mark <id> <status>` → repeat.
+   `lk next` → **read the site guide** at `claimed[0].guide` (`lk guide <id>`) → open the URL in the browser →
+   fill the form using the guide's field map → submit → `lk mark <id> <status>` → repeat.
+   Every directory has a guide in [sites/](sites/INDEX.md). It maps that site's form fields to profile keys and
+   lists how to make the listing perform. If the live form differs from the guide, trust the live form and add
+   what you learned to `--note`.
 5. **Wrap-up**: `lk report`, then give the user the `needs_human` list (CAPTCHAs, email verifications,
    payments) and the drafts that are waiting for their approval.
 
@@ -64,4 +70,6 @@ lk mark <id> skipped --note "paid only ($49)"
 lk draft <id> - < post.md       # save a post/pitch draft
 lk release-stale --minutes 30
 lk report
+lk guide <id>                   # per-site field map + steps + optimisation tips
+lk lint-copy --profile          # no em dashes / AI slop / overlong fields
 ```

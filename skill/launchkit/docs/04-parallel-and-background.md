@@ -11,7 +11,7 @@ a single IP or account.
 | `concurrency: 1`, attended | Default. The user is nearby and solves CAPTCHAs when you ping them | 1 browser |
 | `concurrency: 1`, background | The user walks away. Blockers go to `needs_human` and are reviewed at the end | 1 browser |
 | `concurrency: 2–4` | The user wants speed and has a decent machine (16 GB+ RAM) | 1 browser context per worker, roughly 300–800 MB each |
-| `> 4` | Not recommended: sites start rate-limiting and CAPTCHAs increase | — |
+| `> 4` | Not recommended: sites start rate-limiting and CAPTCHAs increase | - |
 
 Only use concurrency > 1 if you can actually run independent browser sessions at the same time. Workers that
 share a single tab will clobber each other.

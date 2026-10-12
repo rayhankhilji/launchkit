@@ -28,6 +28,11 @@ Queue
   release-stale [--minutes 30]
   status [--json]
   report                 Write .launchkit/report.md
+  guide <id>             Print the site guide for a target
+
+Writing
+  lint-copy <file|-> [--max 160]   Flag em dashes, AI-slop words and overlong copy
+  lint-copy --profile              Lint every copy field in the profile
 `;
 
 function parse(argv) {
@@ -101,6 +106,26 @@ async function main() {
       break;
     }
     case 'report': out(core.report()); break;
+    case 'guide': {
+      const g = core.guidePath(pos[1]);
+      if (!g) throw new Error(`No guide for "${pos[1]}". See skill/launchkit/docs/05-site-types.md`);
+      const fs = await import('node:fs');
+      console.log(fs.readFileSync(g, 'utf8'));
+      break;
+    }
+    case 'lint-copy': {
+      const { lintCopy, lintProfile } = await import('../lib/lint.mjs');
+      let r;
+      if (o.profile) r = lintProfile(core.getProfile());
+      else {
+        const fs = await import('node:fs');
+        const text = !pos[1] || pos[1] === '-' ? fs.readFileSync(0, 'utf8') : fs.existsSync(pos[1]) ? fs.readFileSync(pos[1], 'utf8') : pos.slice(1).join(' ');
+        r = lintCopy(text, { maxChars: o.max ? Number(o.max) : undefined });
+      }
+      out(r);
+      process.exitCode = r.ok ? 0 : 3;
+      break;
+    }
     case undefined: case 'help': case '--help': case '-h': console.log(HELP); break;
     default: throw new Error(`Unknown command "${cmd}". Run "launchkit help".`);
   }
